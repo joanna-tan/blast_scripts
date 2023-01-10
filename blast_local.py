@@ -1,22 +1,18 @@
-import re
-import glob
-import csv
-import os
-import sys, getopt
+import re, glob, csv, os, sys, getopt
+import pandas as pd
 from codetiming import Timer
+from tabulate import tabulate
 from Bio import SeqIO
 from Bio.Blast.Applications import NcbiblastpCommandline
 from Bio.Blast import NCBIXML
-
-E_VALUE_THRESH = 1E-10
 
 """
 Method that returns the protein_id, gene, protein, and locus_tag in a string.
 """
 def find_tags(str):
     protein_id_reg = re.compile(r'\[protein_id=([A-Za-z0-9.]+)\]')
-    gene_reg = re.compile(r'\[gene=([A-Za-z0-9]+)\]')
-    protein_reg = re.compile(r'\[protein=([A-Za-z0-9/ ,-]+)\]')
+    gene_reg = re.compile(r'\[gene=(.*?)\]')
+    protein_reg = re.compile(r'\[protein=(.*?)\]')
     locus_tag_reg = re.compile(r'\[locus_tag=([A-Za-z0-9_]+)\]')
 
     prot_search = protein_id_reg.search(str)
@@ -33,10 +29,10 @@ def find_tags(str):
 """
 Method that parses BLAST output.
 """
-def parse_blast_output(blast_output, formatted_output):
+def parse_blast_output(blast_output, formatted_output, e_value_thresh):
     matches = set()
     # db_matches = set()
-    formatted_output += "_core_" + str(E_VALUE_THRESH) + ".csv"
+    formatted_output += "_core_" + str(e_value_thresh) + ".csv"
 
     with open (formatted_output, 'w') as csvoutput:
         writer = csv.writer(csvoutput, lineterminator='\n')
@@ -52,7 +48,7 @@ def parse_blast_output(blast_output, formatted_output):
                 
                 for align in record.alignments:
                     for hsp in align.hsps:
-                        if hsp.expect < E_VALUE_THRESH and curr_hits < 3:
+                        if hsp.expect < e_value_thresh and curr_hits < 3:
                             protein_id, gene, protein, locus_tag = find_tags(align.title)
                             line += "&[locus_tag={locus}]&[protein_id={protein_id}]&[gene={gene}]&[protein={protein}]&[evalue={expect:.5E}]" \
                                     .format(protein_id=protein_id, gene=gene, protein=protein,locus=locus_tag, expect=hsp.expect)
@@ -71,8 +67,8 @@ def parse_blast_output(blast_output, formatted_output):
 """
 Method that finds the unique genes, given a set of matched loci.
 """
-def find_unique(input_file, matches, formatted_output):
-    formatted_output += "_unique_" + str(E_VALUE_THRESH) + ".csv"
+def find_unique(input_file, matches, formatted_output, e_value_thresh):
+    formatted_output += "_unique_" + str(e_value_thresh) + ".csv"
     locus_tag_reg = re.compile(r'\[locus_tag=([A-Za-z0-9_]+)\]')
     uniques = []
 
@@ -101,52 +97,102 @@ def find_unique(input_file, matches, formatted_output):
 
 """
 Method that runs local BLAST of query to a database.
+Returns the number of hits, number of unique genes, and a set of matched loci.
 """
 @Timer(text="Completed BLAST in {:.2f} seconds.")
-def blast_local(query, database):
+def blast_local(query, database, e_value_thresh):
     query_name = os.getcwd().split("/")[-1]
     db_name = database.split("/")[-1]
-    blast_output = "{query_name}_to_{db_name}_{e_value}.txt".format(query_name=query_name, db_name=db_name, e_value=str(E_VALUE_THRESH))
-    formatted_output = "{query_name}_to_{db_name}".format(query_name = query_name, db_name=db_name)
+    blast_output = "{query_name}_to_{db_name}_{e_value}.txt".format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))
+    formatted_output = "{query_name}_to_{db_name}".format(query_name=query_name, db_name=db_name)
+    summary_output = "{query_name}_to_{db_name}_{e_value}_summary.txt" \
+                .format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))
     cline = NcbiblastpCommandline(query=query, db=database,
-                                evalue=E_VALUE_THRESH, outfmt=5, out = blast_output)
+                                evalue=e_value_thresh, outfmt=5, out=blast_output)
+
+    # Write BLAST command to terminal and output file
     print("\n" + str(cline))
+    write_file(summary_output, str(cline) + "\n", "w")
+
     stdout, stderr = cline()
 
     
-    hits, matches = parse_blast_output(blast_output, formatted_output)
-    uniques = find_unique(query, matches, formatted_output)
+    hits, matches = parse_blast_output(blast_output, formatted_output, e_value_thresh)
+    uniques = find_unique(query, matches, formatted_output, e_value_thresh)
 
-    return hits, len(uniques), matches
+    return hits, len(uniques), summary_output, [query_name, db_name, e_value_thresh]
 
-def parse_db(db_name):
+"""
+Method that runs BLAST to the input db_name for all .faa files in the current directory.
+"""
+def parse_db(db_name, summary_list):
     db = "../" + db_name + "/" + db_name
-    for input_file in glob.glob("*.faa"):
-        hits, uniques, matches = blast_local(input_file, db)
-        genes = len([1 for line in open(input_file) if line.startswith(">")])
-        print("Number of hits: {hits} \nNumber of uniques: {uniques} \nNumber of queries: {genes}".format(hits=hits, uniques=uniques, genes=genes))
-        print("% matches: {matches:.2F}%".format(matches=hits/genes * 100))
+
+    # Run BLAST with 1E-5 and 1E-10
+    for e_value in [1E-5, 1E-10]:
+        for input_file in glob.glob("*.faa"):
+            hits, uniques, out_file, summary = blast_local(input_file, db, e_value_thresh=e_value)
+            genes = len([1 for line in open(input_file) if line.startswith(">")])
+            blast_summary = "Number of hits: {hits} \nNumber of uniques: {uniques} \
+                \nNumber of queries: {genes} \n% matches: {matches:.2F}".format(hits=hits, \
+                uniques=uniques, genes=genes, matches=hits/genes * 100)
+            
+            summary.extend([hits, uniques, genes, '{:.2f}'.format(hits/genes * 100)])
+
+            print(blast_summary)
+            write_file(out_file, blast_summary, "a")
+            summary_list.append(summary)
+
+"""
+Method that writes output to a file.
+"""
+def write_file(file_name, input, mode):
+    f = open(file_name, mode)
+    f.write(input)
+    f.close()
+
+"""
+Method that prints all BLAST runs to output .csv file.
+"""
+def print_table(table_summary):
+    columns = ['Query', 'Database', 'E-value', 'Number of hits', 'Number unique hits', \
+    'Number of queries', '% Matches']
+    df = pd.DataFrame(table_summary, columns=columns)
+    print(df)
+    
+    df.to_csv("summary_" + os.getcwd().split("/")[-1] + ".csv")
+    sys.exit()
 
 @Timer(text="Completed in {:.2f} seconds.")
 def main(argv):
-    db_list = ["MED4", "MIT9312", "MIT9313"]
+    db_list = ["MED4", "MIT9312", "MIT9313", "NATL2A", "WH8109", "WH8103", "WH7803", "WH8020"]
     db = ""
     try:
-        opts, args = getopt.getopt(argv,"ai:",["dbname="])
+        opts, _ = getopt.getopt(argv,"apsi:",["dbname="])
     except:
         print('test.py -a -i <dbname>')
         sys.exit(2)
     for opt, arg in opts:
+        table_summary = []
         if opt == '-a':
             for db in db_list:
-                parse_db(db)
-            sys.exit()
+                parse_db(db, table_summary)
+            print_table(table_summary)
+        elif opt == '-p':
+            for i in range(4):
+                parse_db(db_list[i], table_summary)
+            print_table(table_summary)
+        elif opt == '-s':
+            for i in range(4, len(db_list)):
+                parse_db(db_list[i], table_summary)
+            print_table(table_summary)
         elif opt in ("-i", "--dbname"):
             db = arg.upper()
             if db in db_list:
-                parse_db(db)
+                parse_db(db, table_summary)
+                print_table(table_summary)
             else:
-                print('Invalid db name\nUsage: test.py -a -i <dbname>')
+                print('Invalid db name\nUsage: test.py -a/p/s -i <dbname>')
 
 if __name__ == "__main__":
     main(sys.argv[1:])
