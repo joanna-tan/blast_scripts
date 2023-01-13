@@ -1,0 +1,5 @@
+blastp -out MIT9312_to_WH8020_1e-05.txt -outfmt 5 -query MIT9312_GCA_000012645.1_ASM1264v1_translated_cds.faa -db ../WH8020/WH8020 -evalue 1e-05
+Number of hits: 1495 
+Number of uniques: 467                 
+Number of queries: 1962 
+% matches: 76.20

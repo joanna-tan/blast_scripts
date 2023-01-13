@@ -1,0 +1,14 @@
+HistoryId: MCID_636294b342eb2643bf19953e
+QueryKey: 12
+ReleaseType: GenBank
+FileType: TRANS_CDS
+Flat: true
+
+Query title: Select 1 document(s)
+    
+Search results count: 1
+Entries to download: 1
+
+TRANS_CDS files in archive: 1
+Total size (bytes): 447353
+Total time: 632 milliseconds
