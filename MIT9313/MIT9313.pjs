@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "MIT9313",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "GCA_000011485.1_ASM1148v1_translated_cds.faa",
+  "number-of-letters": 695172,
+  "number-of-sequences": 2915,
+  "last-updated": "2022-12-09T03:18:00",
+  "number-of-volumes": 1,
+  "bytes-total": 2164519,
+  "bytes-to-cache": 721536,
+  "files": [
+    "MIT9313.pdb",
+    "MIT9313.phr",
+    "MIT9313.pin",
+    "MIT9313.pog",
+    "MIT9313.pos",
+    "MIT9313.pot",
+    "MIT9313.psq",
+    "MIT9313.ptf",
+    "MIT9313.pto"
+  ]
+}

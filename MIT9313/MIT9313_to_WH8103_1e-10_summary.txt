@@ -1,0 +1,5 @@
+blastp -out MIT9313_to_WH8103_1e-10.txt -outfmt 5 -query GCA_000011485.1_ASM1148v1_translated_cds.faa -db ../WH8103/WH8103 -evalue 1e-10
+Number of hits: 1821 
+Number of uniques: 1094                 
+Number of queries: 2915 
+% matches: 62.47
