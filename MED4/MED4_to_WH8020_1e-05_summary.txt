@@ -1,0 +1,5 @@
+blastp -out MED4_to_WH8020_1e-05.txt -outfmt 5 -query GCA_000011465.1_ASM1146v1_translated_cds.faa -db ../WH8020/WH8020 -evalue 1e-05
+Number of hits: 1485 
+Number of uniques: 475                 
+Number of queries: 1960 
+% matches: 75.77

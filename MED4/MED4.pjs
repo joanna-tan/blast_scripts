@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "MED4",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "MED4_GCA_000011465.1_ASM1146v1_translated_cds.faa",
+  "number-of-letters": 499388,
+  "number-of-sequences": 1960,
+  "last-updated": "2022-11-11T00:27:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1523056,
+  "bytes-to-cache": 517157,
+  "files": [
+    "MED4.pdb",
+    "MED4.phr",
+    "MED4.pin",
+    "MED4.pog",
+    "MED4.pos",
+    "MED4.pot",
+    "MED4.psq",
+    "MED4.ptf",
+    "MED4.pto"
+  ]
+}
