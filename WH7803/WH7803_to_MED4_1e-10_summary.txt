@@ -1,0 +1,5 @@
+blastp -out WH7803_to_MED4_1e-10.txt -outfmt 5 -query GCA_000063505.1_ASM6350v1_translated_cds.faa -db ../MED4/MED4 -evalue 1e-10
+Number of hits: 1499 
+Number of uniques: 1034                 
+Number of queries: 2533 
+% matches: 59.18

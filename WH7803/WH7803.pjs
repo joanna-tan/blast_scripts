@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "WH7803",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "GCA_000063505.1_ASM6350v1_translated_cds.faa",
+  "number-of-letters": 732371,
+  "number-of-sequences": 2533,
+  "last-updated": "2023-01-06T04:45:00",
+  "number-of-volumes": 1,
+  "bytes-total": 2102011,
+  "bytes-to-cache": 755297,
+  "files": [
+    "WH7803.pdb",
+    "WH7803.phr",
+    "WH7803.pin",
+    "WH7803.pog",
+    "WH7803.pos",
+    "WH7803.pot",
+    "WH7803.psq",
+    "WH7803.ptf",
+    "WH7803.pto"
+  ]
+}
