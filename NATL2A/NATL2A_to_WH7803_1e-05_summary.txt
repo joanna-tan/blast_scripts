@@ -1,0 +1,5 @@
+blastp -out NATL2A_to_WH7803_1e-05.txt -outfmt 5 -query GCA_000012465.1_ASM1246v1_translated_cds.faa -db ../WH7803/WH7803 -evalue 1e-05
+Number of hits: 1557 
+Number of uniques: 606                 
+Number of queries: 2163 
+% matches: 71.98

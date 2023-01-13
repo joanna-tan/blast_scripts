@@ -1,0 +1,5 @@
+blastp -out NATL2A_to_WH8109_1e-10.txt -outfmt 5 -query GCA_000012465.1_ASM1246v1_translated_cds.faa -db ../WH8109/WH8109 -evalue 1e-10
+Number of hits: 1514 
+Number of uniques: 649                 
+Number of queries: 2163 
+% matches: 70.00
