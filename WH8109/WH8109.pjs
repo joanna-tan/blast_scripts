@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "WH8109",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "GCA_000161795.2_ASM16179v2_translated_cds.faa",
+  "number-of-letters": 623460,
+  "number-of-sequences": 2644,
+  "last-updated": "2023-01-05T23:00:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1646724,
+  "bytes-to-cache": 647385,
+  "files": [
+    "WH8109.pdb",
+    "WH8109.phr",
+    "WH8109.pin",
+    "WH8109.pog",
+    "WH8109.pos",
+    "WH8109.pot",
+    "WH8109.psq",
+    "WH8109.ptf",
+    "WH8109.pto"
+  ]
+}

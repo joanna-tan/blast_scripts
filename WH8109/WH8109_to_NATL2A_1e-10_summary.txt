@@ -1,0 +1,5 @@
+blastp -out WH8109_to_NATL2A_1e-10.txt -outfmt 5 -query GCA_000161795.2_ASM16179v2_translated_cds.faa -db ../NATL2A/NATL2A -evalue 1e-10
+Number of hits: 1536 
+Number of uniques: 1108                 
+Number of queries: 2644 
+% matches: 58.09

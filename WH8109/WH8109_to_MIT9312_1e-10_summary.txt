@@ -1,0 +1,5 @@
+blastp -out WH8109_to_MIT9312_1e-10.txt -outfmt 5 -query GCA_000161795.2_ASM16179v2_translated_cds.faa -db ../MIT9312/MIT9312 -evalue 1e-10
+Number of hits: 1463 
+Number of uniques: 1181                 
+Number of queries: 2644 
+% matches: 55.33
