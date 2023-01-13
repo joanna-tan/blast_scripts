@@ -1,0 +1,5 @@
+blastp -out WH8103_to_NATL2A_1e-05.txt -outfmt 5 -query GCA_001182765.1_WH8103.1_translated_cds.faa -db ../NATL2A/NATL2A -evalue 1e-05
+Number of hits: 1672 
+Number of uniques: 1160                 
+Number of queries: 2835 
+% matches: 58.98

@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "WH8103",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "GCA_001182765.1_WH8103.1_translated_cds.faa",
+  "number-of-letters": 730274,
+  "number-of-sequences": 2835,
+  "last-updated": "2023-01-06T04:44:00",
+  "number-of-volumes": 1,
+  "bytes-total": 1850299,
+  "bytes-to-cache": 755918,
+  "files": [
+    "WH8103.pdb",
+    "WH8103.phr",
+    "WH8103.pin",
+    "WH8103.pog",
+    "WH8103.pos",
+    "WH8103.pot",
+    "WH8103.psq",
+    "WH8103.ptf",
+    "WH8103.pto"
+  ]
+}

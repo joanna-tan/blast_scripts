@@ -1,0 +1,1 @@
+blastp -out WH8103_to_MED4_1e-05.txt -outfmt 5 -query GCA_001182765.1_WH8103.1_translated_cds.faa -db ../MED4/MED4 -evalue 1e-05
