@@ -153,7 +153,7 @@ def blast_local(query, database, e_value_thresh):
     print("\n" + str(cline))
     write_file(summary_output, str(cline) + "\n", "w")
 
-    # stdout, stderr = cline()
+    stdout, stderr = cline()
     
     num_matches, matches = parse_blast_output(blast_output, e_value_thresh)
     cog_ids = find_cog_categories(find_cog_id(matches))
@@ -206,9 +206,9 @@ def blast_local(query, database, e_value_thresh):
 """
 Method that runs BLAST to COG database for all .faa files in the current directory.
 """
-def parse_db():
+def parse_db(input_file):
     db = "../../COG/COG"
-    input_file = "WH8020_to_MIT9313_unique_1e-05.faa"
+    # input_file = "WH8020_to_MIT9313_unique_1e-05.faa"
     e_value = 1e-5
 
     hits, out_file = blast_local(input_file, db, e_value_thresh=e_value)
@@ -233,7 +233,8 @@ def write_file(file_name, input, mode):
 
 @Timer(text="Completed in {:.2f} seconds.")
 def main():
-    parse_db()
+    for input_file in glob.glob("*.faa"):
+        parse_db(input_file)
 
 if __name__ == "__main__":
     main()

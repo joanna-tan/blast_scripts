@@ -69,8 +69,9 @@ def generate_csv(init_file, matched_tags, output_file):
             if row[0] in matched_tags:
                 summary.append(row[:4])
     
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name']
     df = pd.DataFrame(summary)
-    df.to_csv(output_file + ".csv", index=False, header=False)
+    df.to_csv(output_file + ".csv", index=False, header=columns)
     print("summary len", len(summary))
 
     # Create core gene file fasta output
