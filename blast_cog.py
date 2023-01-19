@@ -57,10 +57,6 @@ class COGData:
         self.cog_id = None
         self.cog_categories = {}
 
-    # def __str__(self):
-    #     return "COGData object, cog_protein_id: {}, q_gene: {}, q_protein: {}, q_locus: {}, e_value: {}, cog_id: {}" \
-    #     .format(self.cog_protein_id, self.q_gene, self.q_protein, self.q_locus, self.e_value, self.cog_id)
-
     def __repr__(self):
         return "cog_protein_id: {}, q_protein_id: {}, q_gene: {}, q_protein: {}, q_locus: {}, e_value: {}, cog_id: {}, cog_categories: {}" \
         .format(self.cog_protein_id, self.q_protein_id, self.q_gene, self.q_protein, self.q_locus, self.e_value, self.cog_id, self.cog_categories)
@@ -90,7 +86,6 @@ Method that returns the cog_id matching an input protein_id
 """
 def find_cog_id(protein_ids):
     cog_ids = defaultdict(set)
-    # cog_ids = {}
 
     with open("../../COG/cog-20.cog.csv", "r") as file:
         reader = csv.reader(file)
@@ -149,20 +144,19 @@ def blast_local(query, database, e_value_thresh):
     db_name = database.split("/")[-1]
     blast_output = "{query_name}_to_{db_name}_{e_value}.txt".format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))
     csv_output = "{query_name}_to_{db_name}_{e_value}.csv".format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))    
-    # summary_output = "{query_name}_to_{db_name}_{e_value}_summary.txt" \
-                # .format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))
+    summary_output = "{query_name}_to_{db_name}_{e_value}_summary.txt" \
+                .format(query_name=query_name, db_name=db_name, e_value=str(e_value_thresh))
     cline = NcbiblastpCommandline(query=query, db=database,
                                 evalue=e_value_thresh, outfmt=5, out=blast_output)
 
     # Write BLAST command to terminal and output file
     print("\n" + str(cline))
-    # write_file(summary_output, str(cline) + "\n", "w")
+    write_file(summary_output, str(cline) + "\n", "w")
 
     # stdout, stderr = cline()
     
     num_matches, matches = parse_blast_output(blast_output, e_value_thresh)
     cog_ids = find_cog_categories(find_cog_id(matches))
-    # find_cog_categories(cog_ids)
     # print("COG IDS", cog_ids)
     for cog_set in cog_ids.values():
         for cog_id in cog_set:
@@ -177,15 +171,13 @@ def blast_local(query, database, e_value_thresh):
     print("MATCHES", matches)
 
     # Create matches csv file output
-    # with open(csv_output, 'w') as csv_file:
-        # writer = csv.writer(csv_file, lineterminator='\n')
     all_out = []
-    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
-    'COG Protein ID', 'E-value', 'COG ID',
-    'COG Category', 'COG Category Function',
-    'COG Category', 'COG Category Function',
-    'COG Category', 'COG Category Function',
-    ]
+    # columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
+    # 'COG Protein ID', 'E-value', 'COG ID',
+    # 'COG Category', 'COG Category Function',
+    # 'COG Category', 'COG Category Function',
+    # 'COG Category', 'COG Category Function',
+    # ]
 
     for match in matches.values():
         for data in match:
@@ -205,10 +197,10 @@ def blast_local(query, database, e_value_thresh):
         # writer.writerows(all_out)
     
     df = pd.DataFrame(all_out)
-    df.to_csv(csv_output, header=columns, index=False)
-    # df.to_csv(csv_output, index=False)
+    # df.to_csv(csv_output, header=columns, index=False)
+    df.to_csv(csv_output, index=False)
     
-    return num_matches
+    return num_matches, summary_output
     # return hits
 
 """
@@ -219,7 +211,7 @@ def parse_db():
     input_file = "WH8020_to_MIT9313_unique_1e-05.faa"
     e_value = 1e-5
 
-    hits = blast_local(input_file, db, e_value_thresh=e_value)
+    hits, out_file = blast_local(input_file, db, e_value_thresh=e_value)
     genes = len([1 for line in open(input_file) if line.startswith(">")])
     blast_summary = "Number of COG matches: {hits} \nNumber missing: {uniques} \
         \nNumber of queries: {genes} \n% matches: {matches:.2F}".format(hits=hits, \
@@ -228,7 +220,7 @@ def parse_db():
     # summary.extend([hits, uniques, genes, '{:.2f}'.format(hits/genes * 100)])
 
     print(blast_summary)
-    # write_file(out_file, blast_summary, "a")
+    write_file(out_file, blast_summary, "a")
     # summary_list.append(summary)
 
 """
@@ -239,6 +231,9 @@ def write_file(file_name, input, mode):
     f.write(input)
     f.close()
 
-parse_db()
-# find_cog_function_defs()
-# parse_blast_output(" WH8020_to_MIT9313_unique_1e-05_to_COG_1e-05.txt")
+@Timer(text="Completed in {:.2f} seconds.")
+def main():
+    parse_db()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+blastp -out WH8020_to_MIT9313_unique_1e-05_to_COG_1e-05.txt -outfmt 5 -query WH8020_to_MIT9313_unique_1e-05.faa -db ../../COG/COG -evalue 1e-05
+Number of COG matches: 259 
+Number missing: 473         
+Number of queries: 732 
+% matches: 35.38
