@@ -1,601 +1,602 @@
-[locus_tag=PMN2A_1345],[protein_id=AAZ58834.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1357],[protein_id=AAZ58846.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1367],[protein_id=AAZ58855.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1369],[protein_id=AAZ58857.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1370],[protein_id=AAZ58858.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1384],[protein_id=AAZ58872.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1386],[protein_id=AAZ58874.1],[gene=None],[protein=enzyme of the cupin superfamily]
-[locus_tag=PMN2A_1897],[protein_id=ABU23835.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1387],[protein_id=AAZ58875.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1388],[protein_id=AAZ58876.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1389],[protein_id=AAZ58877.1],[gene=None],[protein=C-type lectin]
-[locus_tag=PMN2A_1898],[protein_id=ABU23836.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1391],[protein_id=AAZ58879.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1393],[protein_id=AAZ58881.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1899],[protein_id=ABU23837.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1900],[protein_id=ABU23838.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1901],[protein_id=ABU23839.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1902],[protein_id=ABU23840.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1394],[protein_id=AAZ58882.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1395],[protein_id=AAZ58883.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1396],[protein_id=AAZ58884.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1903],[protein_id=ABU23841.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1397],[protein_id=AAZ58885.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1398],[protein_id=AAZ58886.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1400],[protein_id=AAZ58888.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1404],[protein_id=AAZ58892.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_1405],[protein_id=AAZ58893.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1406],[protein_id=AAZ58894.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1409],[protein_id=AAZ58897.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1412],[protein_id=AAZ58900.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1904],[protein_id=ABU23842.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1905],[protein_id=ABU23843.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1906],[protein_id=ABU23844.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1418],[protein_id=AAZ58906.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1425],[protein_id=AAZ58913.1],[gene=None],[protein=photosystem II protein X PsbX]
-[locus_tag=PMN2A_1429],[protein_id=AAZ58917.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1907],[protein_id=ABU23845.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1908],[protein_id=ABU23846.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1470],[protein_id=AAZ58958.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1472],[protein_id=AAZ58960.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1910],[protein_id=ABU23848.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1911],[protein_id=ABU23849.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1912],[protein_id=ABU23850.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1913],[protein_id=ABU23851.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1914],[protein_id=ABU23852.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1579],[protein_id=AAZ59067.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1580],[protein_id=AAZ59068.1],[gene=None],[protein=permease]
-[locus_tag=PMN2A_1916],[protein_id=ABU23854.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1609],[protein_id=AAZ59097.1],[gene=None],[protein=Thymidylate synthase complementing protein ThyX]
-[locus_tag=PMN2A_1618],[protein_id=AAZ59106.1],[gene=None],[protein=photosystem II 10 kDa phosphoprotein PsbH]
-[locus_tag=PMN2A_1917],[protein_id=ABU23855.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1918],[protein_id=ABU23856.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1653],[protein_id=AAZ59141.1],[gene=None],"[protein=7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK]"
-[locus_tag=PMN2A_1667],[protein_id=AAZ59155.1],[gene=None],"[protein=Selenide,water dikinase]"
-[locus_tag=PMN2A_1919],[protein_id=ABU23857.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1684],[protein_id=AAZ59172.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1920],[protein_id=ABU23858.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1710],[protein_id=AAZ59198.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1922],[protein_id=ABU23859.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1712],[protein_id=AAZ59200.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1713],[protein_id=AAZ59201.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1714],[protein_id=AAZ59202.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1924],[protein_id=ABU23860.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1925],[protein_id=ABU23861.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1716],[protein_id=AAZ59204.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_1717],[protein_id=AAZ59205.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_1718],[protein_id=AAZ59206.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_1926],[protein_id=ABU23862.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1720],[protein_id=AAZ59208.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1927],[protein_id=ABU23863.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1725],[protein_id=AAZ59213.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1928],[protein_id=ABU23864.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1929],[protein_id=ABU23865.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1751],[protein_id=AAZ59239.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1930],[protein_id=ABU23866.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1932],[protein_id=ABU23867.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1763],[protein_id=AAZ59251.1],[gene=None],[protein=uncharacterized Zn ribbon-containing conserved protein]
-[locus_tag=PMN2A_1782],[protein_id=AAZ59270.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1797],[protein_id=AAZ59285.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1805],[protein_id=AAZ59293.1],[gene=None],"[protein=sodium/proton antiporter, CPA1 family]"
-[locus_tag=PMN2A_1933],[protein_id=ABU23868.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1934],[protein_id=ABU23869.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1837],[protein_id=AAZ59325.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1869],[protein_id=AAZ59357.1],[gene=None],[protein=lipoate-protein ligase A]
-[locus_tag=PMN2A_1889],[protein_id=AAZ59377.1],[gene=None],[protein=hydroxyacylglutathione hydrolase]
-[locus_tag=PMN2A_1935],[protein_id=ABU23870.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1936],[protein_id=ABU23871.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0063],[protein_id=AAZ57555.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0065],[protein_id=AAZ57557.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1937],[protein_id=ABU23872.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0067],[protein_id=AAZ57559.1],[gene=None],[protein=Na+/glutamate symporter]
-[locus_tag=PMN2A_0071],[protein_id=AAZ57563.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1938],[protein_id=ABU23873.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0076],[protein_id=AAZ57568.1],[gene=None],[protein=isochorismatase family hydrolase]
-[locus_tag=PMN2A_1939],[protein_id=ABU23874.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0091],[protein_id=AAZ57583.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1940],[protein_id=ABU23875.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0118],[protein_id=AAZ57610.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0119],[protein_id=AAZ57611.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1941],[protein_id=ABU23876.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1942],[protein_id=ABU23877.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1943],[protein_id=ABU23878.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1944],[protein_id=ABU23879.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0120],[protein_id=AAZ57612.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0123],[protein_id=AAZ57615.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1945],[protein_id=ABU23880.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0125],[protein_id=AAZ57617.1],[gene=None],[protein=possible paired amphipathic helix repeat]
-[locus_tag=PMN2A_1946],[protein_id=ABU23881.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0126],[protein_id=AAZ57618.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0128],[protein_id=AAZ57620.1],[gene=None],[protein=BdrC3-like protein]
-[locus_tag=PMN2A_1947],[protein_id=ABU23882.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0132],[protein_id=AAZ57624.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0168],[protein_id=AAZ57660.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0188],[protein_id=AAZ57680.1],[gene=None],[protein=fructose-bisphosphate aldolase]
-[locus_tag=PMN2A_0197],[protein_id=AAZ57689.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0212],[protein_id=AAZ57704.1],[gene=None],[protein=ferritin family protein]
-[locus_tag=PMN2A_0213],[protein_id=AAZ57705.1],[gene=None],[protein=possible gram-negative pili assembly chaperone]
-[locus_tag=PMN2A_0219],[protein_id=AAZ57711.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0220],[protein_id=AAZ57712.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1949],[protein_id=ABU23883.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0229],[protein_id=AAZ57721.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0230],[protein_id=AAZ57722.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0232],[protein_id=AAZ57724.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0238],[protein_id=AAZ57730.1],[gene=None],[protein=possible josephin]
-[locus_tag=PMN2A_0240],[protein_id=AAZ57732.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0241],[protein_id=AAZ57733.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1950],[protein_id=ABU23884.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0251],[protein_id=AAZ57743.1],[gene=None],[protein=possible GRAM domain]
-[locus_tag=PMN2A_1951],[protein_id=ABU23885.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1952],[protein_id=ABU23886.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0269],[protein_id=AAZ57761.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0273],[protein_id=AAZ57765.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1953],[protein_id=ABU23887.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0286],[protein_id=AAZ57778.1],[gene=None],[protein=putative 4-amino-4-deoxy-L-arabinose transferase and related glycosyltransferases of PMT family]
-[locus_tag=PMN2A_1954],[protein_id=ABU23888.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0287],[protein_id=AAZ57779.1],[gene=None],[protein=conserved hypothetical membrane protein]
-[locus_tag=PMN2A_1955],[protein_id=ABU23889.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0290],[protein_id=AAZ57782.1],[gene=None],[protein=cytochrome b6-f complex subunit VIII]
-[locus_tag=PMN2A_1956],[protein_id=ABU23890.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1957],[protein_id=ABU23891.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0343],[protein_id=AAZ57835.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0344],[protein_id=AAZ57836.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1958],[protein_id=ABU23892.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1959],[protein_id=ABU23893.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1960],[protein_id=ABU23894.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1961],[protein_id=ABU23895.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0347],[protein_id=AAZ57839.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0348],[protein_id=AAZ57840.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1962],[protein_id=ABU23896.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1963],[protein_id=ABU23897.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0349],[protein_id=AAZ57841.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1964],[protein_id=ABU23898.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1965],[protein_id=ABU23899.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0351],[protein_id=AAZ57843.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1966],[protein_id=ABU23900.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0370],[protein_id=AAZ57862.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0386],[protein_id=AAZ57878.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0388],[protein_id=AAZ57880.1],[gene=None],[protein=uridine kinase]
-[locus_tag=PMN2A_1967],[protein_id=ABU23901.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1968],[protein_id=ABU23902.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0389],[protein_id=AAZ57881.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1969],[protein_id=ABU23903.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0390],[protein_id=AAZ57882.1],[gene=None],[protein=NADPH-dependent reductase]
-[locus_tag=PMN2A_1970],[protein_id=ABU23904.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1971],[protein_id=ABU23905.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1972],[protein_id=ABU23906.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1973],[protein_id=ABU23907.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0391],[protein_id=AAZ57883.1],[gene=None],[protein=possible domain of unknown function DUF38]
-[locus_tag=PMN2A_0392],[protein_id=AAZ57884.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1975],[protein_id=ABU23908.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0394],[protein_id=AAZ57886.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0397],[protein_id=AAZ57889.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0398],[protein_id=AAZ57890.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0400],[protein_id=AAZ57892.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0401],[protein_id=AAZ57893.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1976],[protein_id=ABU23909.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0402],[protein_id=AAZ57894.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0404],[protein_id=AAZ57896.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0405],[protein_id=AAZ57897.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0406],[protein_id=AAZ57898.1],[gene=None],[protein=uncharacterized membrane protein]
-[locus_tag=PMN2A_1977],[protein_id=ABU23910.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0407],[protein_id=AAZ57899.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1978],[protein_id=ABU23911.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1979],[protein_id=ABU23912.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1980],[protein_id=ABU23913.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0412],[protein_id=AAZ57904.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1981],[protein_id=ABU23914.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1982],[protein_id=ABU23915.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0414],[protein_id=AAZ57906.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0415],[protein_id=AAZ57907.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0416],[protein_id=AAZ57908.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0417],[protein_id=AAZ57909.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_0418],[protein_id=AAZ57910.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_0419],[protein_id=AAZ57911.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_1983],[protein_id=ABU23916.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0420],[protein_id=AAZ57912.1],[gene=None],[protein=high light inducible protein hli11]
-[locus_tag=PMN2A_0423],[protein_id=AAZ57915.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1984],[protein_id=ABU23917.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0425],[protein_id=AAZ57917.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1985],[protein_id=ABU23918.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1986],[protein_id=ABU23919.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1987],[protein_id=ABU23920.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1988],[protein_id=ABU23921.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1989],[protein_id=ABU23922.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0427],[protein_id=AAZ57919.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0428],[protein_id=AAZ57920.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0430],[protein_id=AAZ57922.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0431],[protein_id=AAZ57923.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0432],[protein_id=AAZ57924.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1991],[protein_id=ABU23923.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0434],[protein_id=AAZ57926.1],[gene=None],[protein=high light inducible protein hli11]
-[locus_tag=PMN2A_1992],[protein_id=ABU23924.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1993],[protein_id=ABU23925.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1994],[protein_id=ABU23926.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1995],[protein_id=ABU23927.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1996],[protein_id=ABU23928.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0438],[protein_id=AAZ57930.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0442],[protein_id=AAZ57934.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1998],[protein_id=ABU23930.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0448],[protein_id=AAZ57940.1],[gene=None],[protein=possible elongation factor Tu domain 2]
-[locus_tag=PMN2A_0449],[protein_id=AAZ57941.1],[gene=None],"[protein=possible zinc finger, C2H2 type]"
-[locus_tag=PMN2A_0453],[protein_id=AAZ57945.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0454],[protein_id=AAZ57946.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1999],[protein_id=ABU23931.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2000],[protein_id=ABU23932.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2001],[protein_id=ABU23933.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2002],[protein_id=ABU23934.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2003],[protein_id=ABU23935.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2004],[protein_id=ABU23936.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0457],[protein_id=AAZ57948.1],[gene=None],[protein=protein family PM-6]
-[locus_tag=PMN2A_0458],[protein_id=AAZ57949.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2005],[protein_id=ABU23937.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0459],[protein_id=AAZ57950.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0460],[protein_id=AAZ57951.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0461],[protein_id=AAZ57952.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0463],[protein_id=AAZ57954.1],[gene=None],[protein=protein family PM-11]
-[locus_tag=PMN2A_2006],[protein_id=ABU23938.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0465],[protein_id=AAZ57956.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0466],[protein_id=AAZ57957.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2007],[protein_id=ABU23939.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2008],[protein_id=ABU23940.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0467],[protein_id=AAZ57958.1],[gene=None],[protein=protein family PM-17]
-[locus_tag=PMN2A_2009],[protein_id=ABU23941.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2010],[protein_id=ABU23942.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0468],[protein_id=AAZ57959.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0469],[protein_id=AAZ57960.1],[gene=None],[protein=protein family PM-11]
-[locus_tag=PMN2A_0472],[protein_id=AAZ57963.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0474],[protein_id=AAZ57965.1],[gene=None],[protein=protein family PM-10]
-[locus_tag=PMN2A_2011],[protein_id=ABU23943.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0479],[protein_id=AAZ57970.1],[gene=None],[protein=protein family PM-26]
-[locus_tag=PMN2A_0480],[protein_id=AAZ57971.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2012],[protein_id=ABU23944.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0481],[protein_id=AAZ57972.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0482],[protein_id=AAZ57973.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0483],[protein_id=AAZ57974.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2013],[protein_id=ABU23945.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0484],[protein_id=AAZ57975.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0485],[protein_id=AAZ57976.1],[gene=None],[protein=membrane serine protease of rhomboid family]
-[locus_tag=PMN2A_0486],[protein_id=AAZ57977.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0488],[protein_id=AAZ57979.1],[gene=None],[protein=possible gram-negative pili assembly chaperone]
-[locus_tag=PMN2A_0490],[protein_id=AAZ57981.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2014],[protein_id=ABU23946.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0493],[protein_id=AAZ57984.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2015],[protein_id=ABU23947.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0494],[protein_id=AAZ57985.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2016],[protein_id=ABU23948.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0495],[protein_id=AAZ57986.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2017],[protein_id=ABU23949.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2018],[protein_id=ABU23950.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2019],[protein_id=ABU23951.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0496],[protein_id=AAZ57987.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2020],[protein_id=ABU23952.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0498],[protein_id=AAZ57989.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0499],[protein_id=AAZ57990.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0500],[protein_id=AAZ57991.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0502],[protein_id=AAZ57993.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0504],[protein_id=AAZ57995.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2021],[protein_id=ABU23953.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0505],[protein_id=AAZ57996.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0506],[protein_id=AAZ57997.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0507],[protein_id=AAZ57998.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_0508],[protein_id=AAZ57999.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_2022],[protein_id=ABU23954.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2023],[protein_id=ABU23955.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0510],[protein_id=AAZ58001.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0511],[protein_id=AAZ58002.1],[gene=None],[protein=glutamine amidotransferase class-I]
-[locus_tag=PMN2A_0512],[protein_id=AAZ58003.1],[gene=None],[protein=possible influenza non-structural protein (NS2)]
-[locus_tag=PMN2A_2024],[protein_id=ABU23956.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0513],[protein_id=AAZ58004.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2025],[protein_id=ABU23957.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0514],[protein_id=AAZ58005.1],[gene=None],[protein=protein family PM-9]
-[locus_tag=PMN2A_0515],[protein_id=AAZ58006.1],[gene=None],[protein=possible inward rectifier potassium channel]
-[locus_tag=PMN2A_0516],[protein_id=AAZ58007.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2026],[protein_id=ABU23958.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2027],[protein_id=ABU23959.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2028],[protein_id=ABU23960.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2029],[protein_id=ABU23961.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0518],[protein_id=AAZ58009.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0519],[protein_id=AAZ58010.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0520],[protein_id=AAZ58011.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2030],[protein_id=ABU23962.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2031],[protein_id=ABU23963.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0521],[protein_id=AAZ58012.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0522],[protein_id=AAZ58013.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2032],[protein_id=ABU23964.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2033],[protein_id=ABU23965.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2034],[protein_id=ABU23966.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0523],[protein_id=AAZ58014.1],[gene=None],"[protein=prolyl aminopeptidase, Serine peptidase, MEROPS family S33]"
-[locus_tag=PMN2A_0524],[protein_id=AAZ58015.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0525],[protein_id=AAZ58016.1],[gene=None],[protein=protein family PM-14]
-[locus_tag=PMN2A_0526],[protein_id=AAZ58017.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0527],[protein_id=AAZ58018.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0528],[protein_id=AAZ58019.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0529],[protein_id=AAZ58020.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0530],[protein_id=AAZ58021.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2037],[protein_id=ABU23967.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0532],[protein_id=AAZ58023.1],[gene=None],[protein=possible protein of unknown function DUF67]
-[locus_tag=PMN2A_0533],[protein_id=AAZ58024.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2038],[protein_id=ABU23968.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2039],[protein_id=ABU23969.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0534],[protein_id=AAZ58025.1],[gene=None],[protein=possible 7TM chemoreceptor]
-[locus_tag=PMN2A_0535],[protein_id=AAZ58026.1],[gene=None],[protein=protein family PM-19]
-[locus_tag=PMN2A_0537],[protein_id=AAZ58028.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2041],[protein_id=ABU23970.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2042],[protein_id=ABU23971.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2043],[protein_id=ABU23972.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0539],[protein_id=AAZ58030.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2044],[protein_id=ABU23973.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2045],[protein_id=ABU23974.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2046],[protein_id=ABU23975.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0540],[protein_id=AAZ58031.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2047],[protein_id=ABU23976.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0541],[protein_id=AAZ58032.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2048],[protein_id=ABU23977.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2049],[protein_id=ABU23978.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2050],[protein_id=ABU23979.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0542],[protein_id=AAZ58033.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0543],[protein_id=AAZ58034.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2051],[protein_id=ABU23980.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2052],[protein_id=ABU23981.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0545],[protein_id=AAZ58036.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2053],[protein_id=ABU23982.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2054],[protein_id=ABU23983.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2055],[protein_id=ABU23984.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2056],[protein_id=ABU23985.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0547],[protein_id=AAZ58038.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2057],[protein_id=ABU23986.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2058],[protein_id=ABU23987.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0548],[protein_id=AAZ58039.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0549],[protein_id=AAZ58040.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2060],[protein_id=ABU23988.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0550],[protein_id=AAZ58041.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0551],[protein_id=AAZ58042.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_0552],[protein_id=AAZ58043.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_2061],[protein_id=ABU23989.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2062],[protein_id=ABU23990.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2063],[protein_id=ABU23991.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0554],[protein_id=AAZ58045.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0555],[protein_id=AAZ58046.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0557],[protein_id=AAZ58048.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0562],[protein_id=AAZ58053.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0563],[protein_id=AAZ58054.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2064],[protein_id=ABU23992.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0564],[protein_id=AAZ58055.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0565],[protein_id=AAZ58056.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0566],[protein_id=AAZ58057.1],[gene=None],[protein=protein family PM-5]
-[locus_tag=PMN2A_0567],[protein_id=AAZ58058.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0568],[protein_id=AAZ58059.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0569],[protein_id=AAZ58060.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2065],[protein_id=ABU23993.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0570],[protein_id=AAZ58061.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2066],[protein_id=ABU23994.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0571],[protein_id=AAZ58062.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2068],[protein_id=ABU23995.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0572],[protein_id=AAZ58063.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0573],[protein_id=AAZ58064.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2070],[protein_id=ABU23996.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2071],[protein_id=ABU23997.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2072],[protein_id=ABU23998.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0574],[protein_id=AAZ58065.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2073],[protein_id=ABU23999.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2074],[protein_id=ABU24000.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2075],[protein_id=ABU24001.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2076],[protein_id=ABU24002.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0576],[protein_id=AAZ58067.1],[gene=None],[protein=high light inducible protein hli11]
-[locus_tag=PMN2A_0577],[protein_id=AAZ58068.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_2077],[protein_id=ABU24003.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2078],[protein_id=ABU24004.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2079],[protein_id=ABU24005.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2080],[protein_id=ABU24006.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2081],[protein_id=ABU24007.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0581],[protein_id=AAZ58072.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0582],[protein_id=AAZ58073.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2082],[protein_id=ABU24008.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0583],[protein_id=AAZ58074.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0584],[protein_id=AAZ58075.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2084],[protein_id=ABU24009.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0587],[protein_id=AAZ58078.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2085],[protein_id=ABU24010.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0589],[protein_id=AAZ58080.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2086],[protein_id=ABU24011.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2087],[protein_id=ABU24012.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2088],[protein_id=ABU24013.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2089],[protein_id=ABU24014.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2090],[protein_id=ABU24015.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2091],[protein_id=ABU24016.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0592],[protein_id=AAZ58083.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2093],[protein_id=ABU24017.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0593],[protein_id=AAZ58084.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2094],[protein_id=ABU24018.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2095],[protein_id=ABU24019.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2096],[protein_id=ABU24020.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2097],[protein_id=ABU24021.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2098],[protein_id=ABU24022.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2099],[protein_id=ABU24023.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2100],[protein_id=ABU24024.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2101],[protein_id=ABU24025.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0596],[protein_id=AAZ58087.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2102],[protein_id=ABU24026.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0600],[protein_id=AAZ58091.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2103],[protein_id=ABU24027.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2104],[protein_id=ABU24028.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2106],[protein_id=ABU24029.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2107],[protein_id=ABU24030.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0602],[protein_id=AAZ58093.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_0603],[protein_id=AAZ58094.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_2108],[protein_id=ABU24031.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0604],[protein_id=AAZ58095.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2109],[protein_id=ABU24032.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0605],[protein_id=AAZ58096.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0606],[protein_id=AAZ58097.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0608],[protein_id=AAZ58099.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2110],[protein_id=ABU24033.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0609],[protein_id=AAZ58100.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2111],[protein_id=ABU24034.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2112],[protein_id=ABU24035.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2113],[protein_id=ABU24036.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0615],[protein_id=AAZ58106.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0616],[protein_id=AAZ58107.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0617],[protein_id=AAZ58108.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2114],[protein_id=ABU24037.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0618],[protein_id=AAZ58109.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0619],[protein_id=AAZ58110.1],[gene=None],[protein=protein family PM-14]
-[locus_tag=PMN2A_0620],[protein_id=AAZ58111.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2115],[protein_id=ABU24038.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2116],[protein_id=ABU24039.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2117],[protein_id=ABU24040.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0623],[protein_id=AAZ58114.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2118],[protein_id=ABU24041.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2119],[protein_id=ABU24042.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0625],[protein_id=AAZ58116.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0626],[protein_id=AAZ58117.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0627],[protein_id=AAZ58118.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2120],[protein_id=ABU24043.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0628],[protein_id=AAZ58119.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0629],[protein_id=AAZ58120.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0630],[protein_id=AAZ58121.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2121],[protein_id=ABU24044.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0633],[protein_id=AAZ58124.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0634],[protein_id=AAZ58125.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2123],[protein_id=ABU24045.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2124],[protein_id=ABU24046.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2125],[protein_id=ABU24047.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0684],[protein_id=AAZ58175.1],[gene=None],[protein=membrane protein]
-[locus_tag=PMN2A_0685],[protein_id=AAZ58176.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2126],[protein_id=ABU24048.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0694],[protein_id=AAZ58185.1],[gene=None],[protein=cytochrome b6-f complex subunit 5]
-[locus_tag=PMN2A_2127],[protein_id=ABU24049.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2128],[protein_id=ABU24050.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0710],[protein_id=AAZ58201.1],[gene=None],[protein=possible Borrelia lipoprotein]
-[locus_tag=PMN2A_0711],[protein_id=AAZ58202.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2129],[protein_id=ABU24051.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0713],[protein_id=AAZ58204.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0714],[protein_id=AAZ58205.1],[gene=None],[protein=MIF/phenylpyruvate tautomerase family protein]
-[locus_tag=PMN2A_2130],[protein_id=ABU24052.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0720],[protein_id=AAZ58211.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2131],[protein_id=ABU24053.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0721],[protein_id=AAZ58212.1],[gene=None],[protein=protein family PM-20]
-[locus_tag=PMN2A_0725],[protein_id=AAZ58216.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0730],[protein_id=AAZ58221.1],[gene=None],[protein=protein family PM-12]
-[locus_tag=PMN2A_0737],[protein_id=AAZ58228.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0739],[protein_id=AAZ58230.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0740],[protein_id=AAZ58231.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0742],[protein_id=AAZ58233.1],[gene=None],[protein=protein family PM-12]
-[locus_tag=PMN2A_2132],[protein_id=ABU24054.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0743],[protein_id=AAZ58234.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0744],[protein_id=AAZ58235.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0757],[protein_id=AAZ58248.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0770],[protein_id=AAZ58261.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0773],[protein_id=AAZ58264.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0775],[protein_id=AAZ58266.1],[gene=None],"[protein=prolyl 4-hydroxylase, alpha subunit]"
-[locus_tag=PMN2A_0776],[protein_id=AAZ58267.1],[gene=None],[protein=possible peptidase family M20/M25/M40]
-[locus_tag=PMN2A_2133],[protein_id=ABU24055.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2134],[protein_id=ABU24056.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0780],[protein_id=AAZ58271.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0781],[protein_id=AAZ58272.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2135],[protein_id=ABU24057.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2136],[protein_id=ABU24058.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0783],[protein_id=AAZ58274.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0785],[protein_id=AAZ58276.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2137],[protein_id=ABU24059.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2138],[protein_id=ABU24060.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2139],[protein_id=ABU24061.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0789],[protein_id=AAZ58280.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2140],[protein_id=ABU24062.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0791],[protein_id=AAZ58282.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0793],[protein_id=AAZ58284.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2141],[protein_id=ABU24063.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0794],[protein_id=AAZ58285.1],[gene=None],"[protein=flavodoxin, long chain]"
-[locus_tag=PMN2A_0795],[protein_id=AAZ58286.1],[gene=None],"[protein=possible helix-turn-helix protein, CopG family]"
-[locus_tag=PMN2A_0818],[protein_id=AAZ58309.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0820],[protein_id=AAZ58311.1],[gene=None],[protein=possible ATP synthase protein 8]
-[locus_tag=PMN2A_0822],[protein_id=AAZ58313.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0823],[protein_id=AAZ58314.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0824],[protein_id=AAZ58315.1],[gene=None],[protein=putative Uncharacterized conserved protein]
-[locus_tag=PMN2A_2143],[protein_id=ABU24064.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2144],[protein_id=ABU24065.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2145],[protein_id=ABU24066.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2146],[protein_id=ABU24067.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2147],[protein_id=ABU24068.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0844],[protein_id=AAZ58335.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0857],[protein_id=AAZ58348.1],[gene=None],"[protein=Protein of unknown function UPF0031:YjeF-related protein, N-terminal protein]"
-[locus_tag=PMN2A_2149],[protein_id=ABU24070.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2150],[protein_id=ABU24071.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0888],[protein_id=AAZ58379.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0889],[protein_id=AAZ58380.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0890],[protein_id=AAZ58381.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0891],[protein_id=AAZ58382.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2151],[protein_id=ABU24072.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2152],[protein_id=ABU24073.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0922],[protein_id=AAZ58413.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2153],[protein_id=ABU24074.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0931],[protein_id=AAZ58422.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0932],[protein_id=AAZ58423.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0937],[protein_id=AAZ58428.1],[gene=None],[protein=redox protein]
-[locus_tag=PMN2A_2154],[protein_id=ABU24075.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0939],[protein_id=AAZ58430.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0940],[protein_id=AAZ58431.1],[gene=None],[protein=possible high light inducible protein]
-[locus_tag=PMN2A_2155],[protein_id=ABU24076.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0941],[protein_id=AAZ58432.1],[gene=None],[protein=high light inducible protein hli11]
-[locus_tag=PMN2A_2156],[protein_id=ABU24077.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0942],[protein_id=AAZ58433.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0945],[protein_id=AAZ58436.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2157],[protein_id=ABU24078.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2158],[protein_id=ABU24079.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0947],[protein_id=AAZ58438.1],[gene=None],[protein=membrane protein]
-[locus_tag=PMN2A_2159],[protein_id=ABU24080.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0948],[protein_id=AAZ58439.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2160],[protein_id=ABU24081.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0951],[protein_id=AAZ58442.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0952],[protein_id=AAZ58443.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2162],[protein_id=ABU24082.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0953],[protein_id=AAZ58444.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_0954],[protein_id=AAZ58445.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2163],[protein_id=ABU24083.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_0956],[protein_id=AAZ58447.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_0957],[protein_id=AAZ58448.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2164],[protein_id=ABU24084.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0958],[protein_id=AAZ58449.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2165],[protein_id=ABU24085.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_0959],[protein_id=AAZ58450.1],[gene=None],[protein=enzyme of the cupin superfamily]
-[locus_tag=PMN2A_0979],[protein_id=AAZ58469.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1026],[protein_id=AAZ58516.1],[gene=None],[protein=uncharacterized membrane protein]
-[locus_tag=PMN2A_1031],[protein_id=AAZ58521.1],[gene=None],[protein=protein family PM-12]
-[locus_tag=PMN2A_1036],[protein_id=AAZ58526.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2168],[protein_id=ABU24088.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2170],[protein_id=ABU24089.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2172],[protein_id=ABU24091.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2173],[protein_id=ABU24092.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1058],[protein_id=AAZ58548.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2174],[protein_id=ABU24093.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1064],[protein_id=AAZ58554.1],[gene=None],[protein=metal-dependent membrane protease]
-[locus_tag=PMN2A_2175],[protein_id=ABU24094.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1090],[protein_id=AAZ58580.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1091],[protein_id=AAZ58581.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2176],[protein_id=ABU24095.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_2177],[protein_id=ABU24096.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1095],[protein_id=AAZ58585.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2178],[protein_id=ABU24097.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_2179],[protein_id=ABU24098.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1096],[protein_id=AAZ58586.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1097],[protein_id=AAZ58587.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2180],[protein_id=ABU24099.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1160],[protein_id=AAZ58650.1],[gene=None],[protein=protein family PM-8]
-[locus_tag=PMN2A_1171],[protein_id=AAZ58661.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1172],[protein_id=AAZ58662.1],[gene=None],[protein=(S)-2-hydroxy-acid oxidase]
-[locus_tag=PMN2A_1218],[protein_id=AAZ58708.1],[gene=None],[protein=putative ABC-type polysaccharide/polyol phosphate export systems permease component]
-[locus_tag=PMN2A_2181],[protein_id=ABU24100.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1226],[protein_id=AAZ58716.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1227],[protein_id=AAZ58717.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_2182],[protein_id=ABU24101.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1234],[protein_id=AAZ58724.1],[gene=None],[protein=dTDP-4-dehydrorhamnose reductase]
-[locus_tag=PMN2A_2183],[protein_id=ABU24102.1],[gene=None],[protein=Hypothetical protein]
-[locus_tag=PMN2A_1238],[protein_id=AAZ58728.1],[gene=None],[protein=hypothetical protein]
-[locus_tag=PMN2A_1242],[protein_id=AAZ58732.1],[gene=None],[protein=membrane protein]
-[locus_tag=PMN2A_2184],[protein_id=ABU24103.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1270],[protein_id=AAZ58760.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_2186],[protein_id=ABU24105.1],[gene=None],[protein=Conserved hypothetical protein]
-[locus_tag=PMN2A_1299],[protein_id=AAZ58789.1],[gene=None],[protein=formate and nitrite transporter]
-[locus_tag=PMN2A_1310],[protein_id=AAZ58799.1],[gene=None],[protein=conserved hypothetical protein]
-[locus_tag=PMN2A_1318],[protein_id=AAZ58807.1],[gene=None],[protein=hypothetical protein]
+Locus tag,Protein ID,Gene,Protein name
+PMN2A_1345,AAZ58834.1,None,conserved hypothetical protein
+PMN2A_1357,AAZ58846.1,None,hypothetical protein
+PMN2A_1367,AAZ58855.1,None,hypothetical protein
+PMN2A_1369,AAZ58857.1,None,conserved hypothetical protein
+PMN2A_1370,AAZ58858.1,None,conserved hypothetical protein
+PMN2A_1384,AAZ58872.1,None,hypothetical protein
+PMN2A_1386,AAZ58874.1,None,enzyme of the cupin superfamily
+PMN2A_1897,ABU23835.1,None,Conserved hypothetical protein
+PMN2A_1387,AAZ58875.1,None,hypothetical protein
+PMN2A_1388,AAZ58876.1,None,hypothetical protein
+PMN2A_1389,AAZ58877.1,None,C-type lectin
+PMN2A_1898,ABU23836.1,None,Conserved hypothetical protein
+PMN2A_1391,AAZ58879.1,None,hypothetical protein
+PMN2A_1393,AAZ58881.1,None,conserved hypothetical protein
+PMN2A_1899,ABU23837.1,None,Conserved hypothetical protein
+PMN2A_1900,ABU23838.1,None,Conserved hypothetical protein
+PMN2A_1901,ABU23839.1,None,Conserved hypothetical protein
+PMN2A_1902,ABU23840.1,None,Conserved hypothetical protein
+PMN2A_1394,AAZ58882.1,None,hypothetical protein
+PMN2A_1395,AAZ58883.1,None,conserved hypothetical protein
+PMN2A_1396,AAZ58884.1,None,hypothetical protein
+PMN2A_1903,ABU23841.1,None,Conserved hypothetical protein
+PMN2A_1397,AAZ58885.1,None,hypothetical protein
+PMN2A_1398,AAZ58886.1,None,conserved hypothetical protein
+PMN2A_1400,AAZ58888.1,None,hypothetical protein
+PMN2A_1404,AAZ58892.1,None,possible high light inducible protein
+PMN2A_1405,AAZ58893.1,None,hypothetical protein
+PMN2A_1406,AAZ58894.1,None,hypothetical protein
+PMN2A_1409,AAZ58897.1,None,hypothetical protein
+PMN2A_1412,AAZ58900.1,None,hypothetical protein
+PMN2A_1904,ABU23842.1,None,Conserved hypothetical protein
+PMN2A_1905,ABU23843.1,None,Hypothetical protein
+PMN2A_1906,ABU23844.1,None,Hypothetical protein
+PMN2A_1418,AAZ58906.1,None,conserved hypothetical protein
+PMN2A_1425,AAZ58913.1,None,photosystem II protein X PsbX
+PMN2A_1429,AAZ58917.1,None,conserved hypothetical protein
+PMN2A_1907,ABU23845.1,None,Conserved hypothetical protein
+PMN2A_1908,ABU23846.1,None,Conserved hypothetical protein
+PMN2A_1470,AAZ58958.1,None,hypothetical protein
+PMN2A_1472,AAZ58960.1,None,hypothetical protein
+PMN2A_1910,ABU23848.1,None,Conserved hypothetical protein
+PMN2A_1911,ABU23849.1,None,Conserved hypothetical protein
+PMN2A_1912,ABU23850.1,None,Conserved hypothetical protein
+PMN2A_1913,ABU23851.1,None,Conserved hypothetical protein
+PMN2A_1914,ABU23852.1,None,Conserved hypothetical protein
+PMN2A_1579,AAZ59067.1,None,conserved hypothetical protein
+PMN2A_1580,AAZ59068.1,None,permease
+PMN2A_1916,ABU23854.1,None,Conserved hypothetical protein
+PMN2A_1609,AAZ59097.1,None,Thymidylate synthase complementing protein ThyX
+PMN2A_1618,AAZ59106.1,None,photosystem II 10 kDa phosphoprotein PsbH
+PMN2A_1917,ABU23855.1,None,Conserved hypothetical protein
+PMN2A_1918,ABU23856.1,None,Conserved hypothetical protein
+PMN2A_1653,AAZ59141.1,None,"7,8-Dihydro-6-hydroxymethylpterin-pyrophosphokinase, HPPK"
+PMN2A_1667,AAZ59155.1,None,"Selenide,water dikinase"
+PMN2A_1919,ABU23857.1,None,Conserved hypothetical protein
+PMN2A_1684,AAZ59172.1,None,hypothetical protein
+PMN2A_1920,ABU23858.1,None,Conserved hypothetical protein
+PMN2A_1710,AAZ59198.1,None,hypothetical protein
+PMN2A_1922,ABU23859.1,None,Conserved hypothetical protein
+PMN2A_1712,AAZ59200.1,None,conserved hypothetical protein
+PMN2A_1713,AAZ59201.1,None,hypothetical protein
+PMN2A_1714,AAZ59202.1,None,hypothetical protein
+PMN2A_1924,ABU23860.1,None,Hypothetical protein
+PMN2A_1925,ABU23861.1,None,Conserved hypothetical protein
+PMN2A_1716,AAZ59204.1,None,possible high light inducible protein
+PMN2A_1717,AAZ59205.1,None,possible high light inducible protein
+PMN2A_1718,AAZ59206.1,None,possible high light inducible protein
+PMN2A_1926,ABU23862.1,None,Conserved hypothetical protein
+PMN2A_1720,AAZ59208.1,None,conserved hypothetical protein
+PMN2A_1927,ABU23863.1,None,Hypothetical protein
+PMN2A_1725,AAZ59213.1,None,hypothetical protein
+PMN2A_1928,ABU23864.1,None,Conserved hypothetical protein
+PMN2A_1929,ABU23865.1,None,Conserved hypothetical protein
+PMN2A_1751,AAZ59239.1,None,conserved hypothetical protein
+PMN2A_1930,ABU23866.1,None,Conserved hypothetical protein
+PMN2A_1932,ABU23867.1,None,Hypothetical protein
+PMN2A_1763,AAZ59251.1,None,uncharacterized Zn ribbon-containing conserved protein
+PMN2A_1782,AAZ59270.1,None,hypothetical protein
+PMN2A_1797,AAZ59285.1,None,conserved hypothetical protein
+PMN2A_1805,AAZ59293.1,None,"sodium/proton antiporter, CPA1 family"
+PMN2A_1933,ABU23868.1,None,Hypothetical protein
+PMN2A_1934,ABU23869.1,None,Conserved hypothetical protein
+PMN2A_1837,AAZ59325.1,None,conserved hypothetical protein
+PMN2A_1869,AAZ59357.1,None,lipoate-protein ligase A
+PMN2A_1889,AAZ59377.1,None,hydroxyacylglutathione hydrolase
+PMN2A_1935,ABU23870.1,None,Hypothetical protein
+PMN2A_1936,ABU23871.1,None,Conserved hypothetical protein
+PMN2A_0063,AAZ57555.1,None,conserved hypothetical protein
+PMN2A_0065,AAZ57557.1,None,hypothetical protein
+PMN2A_1937,ABU23872.1,None,Conserved hypothetical protein
+PMN2A_0067,AAZ57559.1,None,Na+/glutamate symporter
+PMN2A_0071,AAZ57563.1,None,conserved hypothetical protein
+PMN2A_1938,ABU23873.1,None,Conserved hypothetical protein
+PMN2A_0076,AAZ57568.1,None,isochorismatase family hydrolase
+PMN2A_1939,ABU23874.1,None,Conserved hypothetical protein
+PMN2A_0091,AAZ57583.1,None,conserved hypothetical protein
+PMN2A_1940,ABU23875.1,None,Conserved hypothetical protein
+PMN2A_0118,AAZ57610.1,None,hypothetical protein
+PMN2A_0119,AAZ57611.1,None,conserved hypothetical protein
+PMN2A_1941,ABU23876.1,None,Conserved hypothetical protein
+PMN2A_1942,ABU23877.1,None,Conserved hypothetical protein
+PMN2A_1943,ABU23878.1,None,Conserved hypothetical protein
+PMN2A_1944,ABU23879.1,None,Conserved hypothetical protein
+PMN2A_0120,AAZ57612.1,None,hypothetical protein
+PMN2A_0123,AAZ57615.1,None,conserved hypothetical protein
+PMN2A_1945,ABU23880.1,None,Hypothetical protein
+PMN2A_0125,AAZ57617.1,None,possible paired amphipathic helix repeat
+PMN2A_1946,ABU23881.1,None,Hypothetical protein
+PMN2A_0126,AAZ57618.1,None,hypothetical protein
+PMN2A_0128,AAZ57620.1,None,BdrC3-like protein
+PMN2A_1947,ABU23882.1,None,Conserved hypothetical protein
+PMN2A_0132,AAZ57624.1,None,hypothetical protein
+PMN2A_0168,AAZ57660.1,None,hypothetical protein
+PMN2A_0188,AAZ57680.1,None,fructose-bisphosphate aldolase
+PMN2A_0197,AAZ57689.1,None,hypothetical protein
+PMN2A_0212,AAZ57704.1,None,ferritin family protein
+PMN2A_0213,AAZ57705.1,None,possible gram-negative pili assembly chaperone
+PMN2A_0219,AAZ57711.1,None,conserved hypothetical protein
+PMN2A_0220,AAZ57712.1,None,conserved hypothetical protein
+PMN2A_1949,ABU23883.1,None,Conserved hypothetical protein
+PMN2A_0229,AAZ57721.1,None,conserved hypothetical protein
+PMN2A_0230,AAZ57722.1,None,hypothetical protein
+PMN2A_0232,AAZ57724.1,None,conserved hypothetical protein
+PMN2A_0238,AAZ57730.1,None,possible josephin
+PMN2A_0240,AAZ57732.1,None,conserved hypothetical protein
+PMN2A_0241,AAZ57733.1,None,conserved hypothetical protein
+PMN2A_1950,ABU23884.1,None,Conserved hypothetical protein
+PMN2A_0251,AAZ57743.1,None,possible GRAM domain
+PMN2A_1951,ABU23885.1,None,Hypothetical protein
+PMN2A_1952,ABU23886.1,None,Conserved hypothetical protein
+PMN2A_0269,AAZ57761.1,None,conserved hypothetical protein
+PMN2A_0273,AAZ57765.1,None,conserved hypothetical protein
+PMN2A_1953,ABU23887.1,None,Conserved hypothetical protein
+PMN2A_0286,AAZ57778.1,None,putative 4-amino-4-deoxy-L-arabinose transferase and related glycosyltransferases of PMT family
+PMN2A_1954,ABU23888.1,None,Conserved hypothetical protein
+PMN2A_0287,AAZ57779.1,None,conserved hypothetical membrane protein
+PMN2A_1955,ABU23889.1,None,Conserved hypothetical protein
+PMN2A_0290,AAZ57782.1,None,cytochrome b6-f complex subunit VIII
+PMN2A_1956,ABU23890.1,None,Conserved hypothetical protein
+PMN2A_1957,ABU23891.1,None,Hypothetical protein
+PMN2A_0343,AAZ57835.1,None,hypothetical protein
+PMN2A_0344,AAZ57836.1,None,conserved hypothetical protein
+PMN2A_1958,ABU23892.1,None,Conserved hypothetical protein
+PMN2A_1959,ABU23893.1,None,Conserved hypothetical protein
+PMN2A_1960,ABU23894.1,None,Conserved hypothetical protein
+PMN2A_1961,ABU23895.1,None,Conserved hypothetical protein
+PMN2A_0347,AAZ57839.1,None,hypothetical protein
+PMN2A_0348,AAZ57840.1,None,hypothetical protein
+PMN2A_1962,ABU23896.1,None,Conserved hypothetical protein
+PMN2A_1963,ABU23897.1,None,Conserved hypothetical protein
+PMN2A_0349,AAZ57841.1,None,hypothetical protein
+PMN2A_1964,ABU23898.1,None,Conserved hypothetical protein
+PMN2A_1965,ABU23899.1,None,Hypothetical protein
+PMN2A_0351,AAZ57843.1,None,hypothetical protein
+PMN2A_1966,ABU23900.1,None,Hypothetical protein
+PMN2A_0370,AAZ57862.1,None,hypothetical protein
+PMN2A_0386,AAZ57878.1,None,conserved hypothetical protein
+PMN2A_0388,AAZ57880.1,None,uridine kinase
+PMN2A_1967,ABU23901.1,None,Conserved hypothetical protein
+PMN2A_1968,ABU23902.1,None,Conserved hypothetical protein
+PMN2A_0389,AAZ57881.1,None,conserved hypothetical protein
+PMN2A_1969,ABU23903.1,None,Conserved hypothetical protein
+PMN2A_0390,AAZ57882.1,None,NADPH-dependent reductase
+PMN2A_1970,ABU23904.1,None,Conserved hypothetical protein
+PMN2A_1971,ABU23905.1,None,Conserved hypothetical protein
+PMN2A_1972,ABU23906.1,None,Conserved hypothetical protein
+PMN2A_1973,ABU23907.1,None,Conserved hypothetical protein
+PMN2A_0391,AAZ57883.1,None,possible domain of unknown function DUF38
+PMN2A_0392,AAZ57884.1,None,conserved hypothetical protein
+PMN2A_1975,ABU23908.1,None,Conserved hypothetical protein
+PMN2A_0394,AAZ57886.1,None,conserved hypothetical protein
+PMN2A_0397,AAZ57889.1,None,conserved hypothetical protein
+PMN2A_0398,AAZ57890.1,None,hypothetical protein
+PMN2A_0400,AAZ57892.1,None,conserved hypothetical protein
+PMN2A_0401,AAZ57893.1,None,conserved hypothetical protein
+PMN2A_1976,ABU23909.1,None,Conserved hypothetical protein
+PMN2A_0402,AAZ57894.1,None,hypothetical protein
+PMN2A_0404,AAZ57896.1,None,hypothetical protein
+PMN2A_0405,AAZ57897.1,None,hypothetical protein
+PMN2A_0406,AAZ57898.1,None,uncharacterized membrane protein
+PMN2A_1977,ABU23910.1,None,Conserved hypothetical protein
+PMN2A_0407,AAZ57899.1,None,conserved hypothetical protein
+PMN2A_1978,ABU23911.1,None,Hypothetical protein
+PMN2A_1979,ABU23912.1,None,Conserved hypothetical protein
+PMN2A_1980,ABU23913.1,None,Conserved hypothetical protein
+PMN2A_0412,AAZ57904.1,None,conserved hypothetical protein
+PMN2A_1981,ABU23914.1,None,Conserved hypothetical protein
+PMN2A_1982,ABU23915.1,None,Conserved hypothetical protein
+PMN2A_0414,AAZ57906.1,None,conserved hypothetical protein
+PMN2A_0415,AAZ57907.1,None,conserved hypothetical protein
+PMN2A_0416,AAZ57908.1,None,hypothetical protein
+PMN2A_0417,AAZ57909.1,None,possible high light inducible protein
+PMN2A_0418,AAZ57910.1,None,possible high light inducible protein
+PMN2A_0419,AAZ57911.1,None,possible high light inducible protein
+PMN2A_1983,ABU23916.1,None,Hypothetical protein
+PMN2A_0420,AAZ57912.1,None,high light inducible protein hli11
+PMN2A_0423,AAZ57915.1,None,hypothetical protein
+PMN2A_1984,ABU23917.1,None,Conserved hypothetical protein
+PMN2A_0425,AAZ57917.1,None,hypothetical protein
+PMN2A_1985,ABU23918.1,None,Conserved hypothetical protein
+PMN2A_1986,ABU23919.1,None,Conserved hypothetical protein
+PMN2A_1987,ABU23920.1,None,Conserved hypothetical protein
+PMN2A_1988,ABU23921.1,None,Conserved hypothetical protein
+PMN2A_1989,ABU23922.1,None,Conserved hypothetical protein
+PMN2A_0427,AAZ57919.1,None,hypothetical protein
+PMN2A_0428,AAZ57920.1,None,conserved hypothetical protein
+PMN2A_0430,AAZ57922.1,None,hypothetical protein
+PMN2A_0431,AAZ57923.1,None,hypothetical protein
+PMN2A_0432,AAZ57924.1,None,conserved hypothetical protein
+PMN2A_1991,ABU23923.1,None,Conserved hypothetical protein
+PMN2A_0434,AAZ57926.1,None,high light inducible protein hli11
+PMN2A_1992,ABU23924.1,None,Conserved hypothetical protein
+PMN2A_1993,ABU23925.1,None,Conserved hypothetical protein
+PMN2A_1994,ABU23926.1,None,Conserved hypothetical protein
+PMN2A_1995,ABU23927.1,None,Conserved hypothetical protein
+PMN2A_1996,ABU23928.1,None,Conserved hypothetical protein
+PMN2A_0438,AAZ57930.1,None,hypothetical protein
+PMN2A_0442,AAZ57934.1,None,hypothetical protein
+PMN2A_1998,ABU23930.1,None,Hypothetical protein
+PMN2A_0448,AAZ57940.1,None,possible elongation factor Tu domain 2
+PMN2A_0449,AAZ57941.1,None,"possible zinc finger, C2H2 type"
+PMN2A_0453,AAZ57945.1,None,hypothetical protein
+PMN2A_0454,AAZ57946.1,None,hypothetical protein
+PMN2A_1999,ABU23931.1,None,Conserved hypothetical protein
+PMN2A_2000,ABU23932.1,None,Conserved hypothetical protein
+PMN2A_2001,ABU23933.1,None,Conserved hypothetical protein
+PMN2A_2002,ABU23934.1,None,Conserved hypothetical protein
+PMN2A_2003,ABU23935.1,None,Conserved hypothetical protein
+PMN2A_2004,ABU23936.1,None,Conserved hypothetical protein
+PMN2A_0457,AAZ57948.1,None,protein family PM-6
+PMN2A_0458,AAZ57949.1,None,hypothetical protein
+PMN2A_2005,ABU23937.1,None,Conserved hypothetical protein
+PMN2A_0459,AAZ57950.1,None,hypothetical protein
+PMN2A_0460,AAZ57951.1,None,conserved hypothetical protein
+PMN2A_0461,AAZ57952.1,None,conserved hypothetical protein
+PMN2A_0463,AAZ57954.1,None,protein family PM-11
+PMN2A_2006,ABU23938.1,None,Conserved hypothetical protein
+PMN2A_0465,AAZ57956.1,None,hypothetical protein
+PMN2A_0466,AAZ57957.1,None,hypothetical protein
+PMN2A_2007,ABU23939.1,None,Conserved hypothetical protein
+PMN2A_2008,ABU23940.1,None,Conserved hypothetical protein
+PMN2A_0467,AAZ57958.1,None,protein family PM-17
+PMN2A_2009,ABU23941.1,None,Hypothetical protein
+PMN2A_2010,ABU23942.1,None,Conserved hypothetical protein
+PMN2A_0468,AAZ57959.1,None,hypothetical protein
+PMN2A_0469,AAZ57960.1,None,protein family PM-11
+PMN2A_0472,AAZ57963.1,None,hypothetical protein
+PMN2A_0474,AAZ57965.1,None,protein family PM-10
+PMN2A_2011,ABU23943.1,None,Conserved hypothetical protein
+PMN2A_0479,AAZ57970.1,None,protein family PM-26
+PMN2A_0480,AAZ57971.1,None,hypothetical protein
+PMN2A_2012,ABU23944.1,None,Conserved hypothetical protein
+PMN2A_0481,AAZ57972.1,None,hypothetical protein
+PMN2A_0482,AAZ57973.1,None,conserved hypothetical protein
+PMN2A_0483,AAZ57974.1,None,conserved hypothetical protein
+PMN2A_2013,ABU23945.1,None,Conserved hypothetical protein
+PMN2A_0484,AAZ57975.1,None,conserved hypothetical protein
+PMN2A_0485,AAZ57976.1,None,membrane serine protease of rhomboid family
+PMN2A_0486,AAZ57977.1,None,hypothetical protein
+PMN2A_0488,AAZ57979.1,None,possible gram-negative pili assembly chaperone
+PMN2A_0490,AAZ57981.1,None,hypothetical protein
+PMN2A_2014,ABU23946.1,None,Conserved hypothetical protein
+PMN2A_0493,AAZ57984.1,None,conserved hypothetical protein
+PMN2A_2015,ABU23947.1,None,Conserved hypothetical protein
+PMN2A_0494,AAZ57985.1,None,conserved hypothetical protein
+PMN2A_2016,ABU23948.1,None,Conserved hypothetical protein
+PMN2A_0495,AAZ57986.1,None,hypothetical protein
+PMN2A_2017,ABU23949.1,None,Conserved hypothetical protein
+PMN2A_2018,ABU23950.1,None,Hypothetical protein
+PMN2A_2019,ABU23951.1,None,Conserved hypothetical protein
+PMN2A_0496,AAZ57987.1,None,conserved hypothetical protein
+PMN2A_2020,ABU23952.1,None,Conserved hypothetical protein
+PMN2A_0498,AAZ57989.1,None,hypothetical protein
+PMN2A_0499,AAZ57990.1,None,hypothetical protein
+PMN2A_0500,AAZ57991.1,None,hypothetical protein
+PMN2A_0502,AAZ57993.1,None,hypothetical protein
+PMN2A_0504,AAZ57995.1,None,hypothetical protein
+PMN2A_2021,ABU23953.1,None,Conserved hypothetical protein
+PMN2A_0505,AAZ57996.1,None,hypothetical protein
+PMN2A_0506,AAZ57997.1,None,hypothetical protein
+PMN2A_0507,AAZ57998.1,None,possible high light inducible protein
+PMN2A_0508,AAZ57999.1,None,possible high light inducible protein
+PMN2A_2022,ABU23954.1,None,Hypothetical protein
+PMN2A_2023,ABU23955.1,None,Hypothetical protein
+PMN2A_0510,AAZ58001.1,None,conserved hypothetical protein
+PMN2A_0511,AAZ58002.1,None,glutamine amidotransferase class-I
+PMN2A_0512,AAZ58003.1,None,possible influenza non-structural protein (NS2)
+PMN2A_2024,ABU23956.1,None,Conserved hypothetical protein
+PMN2A_0513,AAZ58004.1,None,hypothetical protein
+PMN2A_2025,ABU23957.1,None,Conserved hypothetical protein
+PMN2A_0514,AAZ58005.1,None,protein family PM-9
+PMN2A_0515,AAZ58006.1,None,possible inward rectifier potassium channel
+PMN2A_0516,AAZ58007.1,None,conserved hypothetical protein
+PMN2A_2026,ABU23958.1,None,Hypothetical protein
+PMN2A_2027,ABU23959.1,None,Conserved hypothetical protein
+PMN2A_2028,ABU23960.1,None,Conserved hypothetical protein
+PMN2A_2029,ABU23961.1,None,Conserved hypothetical protein
+PMN2A_0518,AAZ58009.1,None,hypothetical protein
+PMN2A_0519,AAZ58010.1,None,hypothetical protein
+PMN2A_0520,AAZ58011.1,None,hypothetical protein
+PMN2A_2030,ABU23962.1,None,Conserved hypothetical protein
+PMN2A_2031,ABU23963.1,None,Conserved hypothetical protein
+PMN2A_0521,AAZ58012.1,None,hypothetical protein
+PMN2A_0522,AAZ58013.1,None,conserved hypothetical protein
+PMN2A_2032,ABU23964.1,None,Hypothetical protein
+PMN2A_2033,ABU23965.1,None,Conserved hypothetical protein
+PMN2A_2034,ABU23966.1,None,Conserved hypothetical protein
+PMN2A_0523,AAZ58014.1,None,"prolyl aminopeptidase, Serine peptidase, MEROPS family S33"
+PMN2A_0524,AAZ58015.1,None,hypothetical protein
+PMN2A_0525,AAZ58016.1,None,protein family PM-14
+PMN2A_0526,AAZ58017.1,None,hypothetical protein
+PMN2A_0527,AAZ58018.1,None,conserved hypothetical protein
+PMN2A_0528,AAZ58019.1,None,hypothetical protein
+PMN2A_0529,AAZ58020.1,None,hypothetical protein
+PMN2A_0530,AAZ58021.1,None,conserved hypothetical protein
+PMN2A_2037,ABU23967.1,None,Hypothetical protein
+PMN2A_0532,AAZ58023.1,None,possible protein of unknown function DUF67
+PMN2A_0533,AAZ58024.1,None,hypothetical protein
+PMN2A_2038,ABU23968.1,None,Conserved hypothetical protein
+PMN2A_2039,ABU23969.1,None,Conserved hypothetical protein
+PMN2A_0534,AAZ58025.1,None,possible 7TM chemoreceptor
+PMN2A_0535,AAZ58026.1,None,protein family PM-19
+PMN2A_0537,AAZ58028.1,None,hypothetical protein
+PMN2A_2041,ABU23970.1,None,Hypothetical protein
+PMN2A_2042,ABU23971.1,None,Conserved hypothetical protein
+PMN2A_2043,ABU23972.1,None,Conserved hypothetical protein
+PMN2A_0539,AAZ58030.1,None,hypothetical protein
+PMN2A_2044,ABU23973.1,None,Hypothetical protein
+PMN2A_2045,ABU23974.1,None,Conserved hypothetical protein
+PMN2A_2046,ABU23975.1,None,Conserved hypothetical protein
+PMN2A_0540,AAZ58031.1,None,hypothetical protein
+PMN2A_2047,ABU23976.1,None,Conserved hypothetical protein
+PMN2A_0541,AAZ58032.1,None,hypothetical protein
+PMN2A_2048,ABU23977.1,None,Conserved hypothetical protein
+PMN2A_2049,ABU23978.1,None,Conserved hypothetical protein
+PMN2A_2050,ABU23979.1,None,Conserved hypothetical protein
+PMN2A_0542,AAZ58033.1,None,hypothetical protein
+PMN2A_0543,AAZ58034.1,None,hypothetical protein
+PMN2A_2051,ABU23980.1,None,Conserved hypothetical protein
+PMN2A_2052,ABU23981.1,None,Conserved hypothetical protein
+PMN2A_0545,AAZ58036.1,None,hypothetical protein
+PMN2A_2053,ABU23982.1,None,Hypothetical protein
+PMN2A_2054,ABU23983.1,None,Hypothetical protein
+PMN2A_2055,ABU23984.1,None,Conserved hypothetical protein
+PMN2A_2056,ABU23985.1,None,Conserved hypothetical protein
+PMN2A_0547,AAZ58038.1,None,hypothetical protein
+PMN2A_2057,ABU23986.1,None,Conserved hypothetical protein
+PMN2A_2058,ABU23987.1,None,Conserved hypothetical protein
+PMN2A_0548,AAZ58039.1,None,hypothetical protein
+PMN2A_0549,AAZ58040.1,None,hypothetical protein
+PMN2A_2060,ABU23988.1,None,Conserved hypothetical protein
+PMN2A_0550,AAZ58041.1,None,hypothetical protein
+PMN2A_0551,AAZ58042.1,None,possible high light inducible protein
+PMN2A_0552,AAZ58043.1,None,possible high light inducible protein
+PMN2A_2061,ABU23989.1,None,Hypothetical protein
+PMN2A_2062,ABU23990.1,None,Hypothetical protein
+PMN2A_2063,ABU23991.1,None,Hypothetical protein
+PMN2A_0554,AAZ58045.1,None,hypothetical protein
+PMN2A_0555,AAZ58046.1,None,hypothetical protein
+PMN2A_0557,AAZ58048.1,None,hypothetical protein
+PMN2A_0562,AAZ58053.1,None,hypothetical protein
+PMN2A_0563,AAZ58054.1,None,hypothetical protein
+PMN2A_2064,ABU23992.1,None,Conserved hypothetical protein
+PMN2A_0564,AAZ58055.1,None,conserved hypothetical protein
+PMN2A_0565,AAZ58056.1,None,hypothetical protein
+PMN2A_0566,AAZ58057.1,None,protein family PM-5
+PMN2A_0567,AAZ58058.1,None,hypothetical protein
+PMN2A_0568,AAZ58059.1,None,hypothetical protein
+PMN2A_0569,AAZ58060.1,None,conserved hypothetical protein
+PMN2A_2065,ABU23993.1,None,Hypothetical protein
+PMN2A_0570,AAZ58061.1,None,conserved hypothetical protein
+PMN2A_2066,ABU23994.1,None,Conserved hypothetical protein
+PMN2A_0571,AAZ58062.1,None,hypothetical protein
+PMN2A_2068,ABU23995.1,None,Hypothetical protein
+PMN2A_0572,AAZ58063.1,None,hypothetical protein
+PMN2A_0573,AAZ58064.1,None,hypothetical protein
+PMN2A_2070,ABU23996.1,None,Conserved hypothetical protein
+PMN2A_2071,ABU23997.1,None,Conserved hypothetical protein
+PMN2A_2072,ABU23998.1,None,Conserved hypothetical protein
+PMN2A_0574,AAZ58065.1,None,hypothetical protein
+PMN2A_2073,ABU23999.1,None,Hypothetical protein
+PMN2A_2074,ABU24000.1,None,Hypothetical protein
+PMN2A_2075,ABU24001.1,None,Conserved hypothetical protein
+PMN2A_2076,ABU24002.1,None,Conserved hypothetical protein
+PMN2A_0576,AAZ58067.1,None,high light inducible protein hli11
+PMN2A_0577,AAZ58068.1,None,possible high light inducible protein
+PMN2A_2077,ABU24003.1,None,Hypothetical protein
+PMN2A_2078,ABU24004.1,None,Hypothetical protein
+PMN2A_2079,ABU24005.1,None,Conserved hypothetical protein
+PMN2A_2080,ABU24006.1,None,Conserved hypothetical protein
+PMN2A_2081,ABU24007.1,None,Conserved hypothetical protein
+PMN2A_0581,AAZ58072.1,None,conserved hypothetical protein
+PMN2A_0582,AAZ58073.1,None,hypothetical protein
+PMN2A_2082,ABU24008.1,None,Conserved hypothetical protein
+PMN2A_0583,AAZ58074.1,None,hypothetical protein
+PMN2A_0584,AAZ58075.1,None,hypothetical protein
+PMN2A_2084,ABU24009.1,None,Hypothetical protein
+PMN2A_0587,AAZ58078.1,None,hypothetical protein
+PMN2A_2085,ABU24010.1,None,Conserved hypothetical protein
+PMN2A_0589,AAZ58080.1,None,hypothetical protein
+PMN2A_2086,ABU24011.1,None,Conserved hypothetical protein
+PMN2A_2087,ABU24012.1,None,Conserved hypothetical protein
+PMN2A_2088,ABU24013.1,None,Conserved hypothetical protein
+PMN2A_2089,ABU24014.1,None,Conserved hypothetical protein
+PMN2A_2090,ABU24015.1,None,Conserved hypothetical protein
+PMN2A_2091,ABU24016.1,None,Hypothetical protein
+PMN2A_0592,AAZ58083.1,None,hypothetical protein
+PMN2A_2093,ABU24017.1,None,Conserved hypothetical protein
+PMN2A_0593,AAZ58084.1,None,hypothetical protein
+PMN2A_2094,ABU24018.1,None,Conserved hypothetical protein
+PMN2A_2095,ABU24019.1,None,Conserved hypothetical protein
+PMN2A_2096,ABU24020.1,None,Conserved hypothetical protein
+PMN2A_2097,ABU24021.1,None,Hypothetical protein
+PMN2A_2098,ABU24022.1,None,Conserved hypothetical protein
+PMN2A_2099,ABU24023.1,None,Conserved hypothetical protein
+PMN2A_2100,ABU24024.1,None,Conserved hypothetical protein
+PMN2A_2101,ABU24025.1,None,Conserved hypothetical protein
+PMN2A_0596,AAZ58087.1,None,conserved hypothetical protein
+PMN2A_2102,ABU24026.1,None,Conserved hypothetical protein
+PMN2A_0600,AAZ58091.1,None,conserved hypothetical protein
+PMN2A_2103,ABU24027.1,None,Conserved hypothetical protein
+PMN2A_2104,ABU24028.1,None,Conserved hypothetical protein
+PMN2A_2106,ABU24029.1,None,Conserved hypothetical protein
+PMN2A_2107,ABU24030.1,None,Conserved hypothetical protein
+PMN2A_0602,AAZ58093.1,None,possible high light inducible protein
+PMN2A_0603,AAZ58094.1,None,possible high light inducible protein
+PMN2A_2108,ABU24031.1,None,Conserved hypothetical protein
+PMN2A_0604,AAZ58095.1,None,hypothetical protein
+PMN2A_2109,ABU24032.1,None,Conserved hypothetical protein
+PMN2A_0605,AAZ58096.1,None,hypothetical protein
+PMN2A_0606,AAZ58097.1,None,hypothetical protein
+PMN2A_0608,AAZ58099.1,None,hypothetical protein
+PMN2A_2110,ABU24033.1,None,Conserved hypothetical protein
+PMN2A_0609,AAZ58100.1,None,hypothetical protein
+PMN2A_2111,ABU24034.1,None,Conserved hypothetical protein
+PMN2A_2112,ABU24035.1,None,Conserved hypothetical protein
+PMN2A_2113,ABU24036.1,None,Hypothetical protein
+PMN2A_0615,AAZ58106.1,None,conserved hypothetical protein
+PMN2A_0616,AAZ58107.1,None,conserved hypothetical protein
+PMN2A_0617,AAZ58108.1,None,conserved hypothetical protein
+PMN2A_2114,ABU24037.1,None,Conserved hypothetical protein
+PMN2A_0618,AAZ58109.1,None,hypothetical protein
+PMN2A_0619,AAZ58110.1,None,protein family PM-14
+PMN2A_0620,AAZ58111.1,None,hypothetical protein
+PMN2A_2115,ABU24038.1,None,Hypothetical protein
+PMN2A_2116,ABU24039.1,None,Conserved hypothetical protein
+PMN2A_2117,ABU24040.1,None,Conserved hypothetical protein
+PMN2A_0623,AAZ58114.1,None,hypothetical protein
+PMN2A_2118,ABU24041.1,None,Conserved hypothetical protein
+PMN2A_2119,ABU24042.1,None,Conserved hypothetical protein
+PMN2A_0625,AAZ58116.1,None,hypothetical protein
+PMN2A_0626,AAZ58117.1,None,hypothetical protein
+PMN2A_0627,AAZ58118.1,None,hypothetical protein
+PMN2A_2120,ABU24043.1,None,Conserved hypothetical protein
+PMN2A_0628,AAZ58119.1,None,hypothetical protein
+PMN2A_0629,AAZ58120.1,None,hypothetical protein
+PMN2A_0630,AAZ58121.1,None,conserved hypothetical protein
+PMN2A_2121,ABU24044.1,None,Conserved hypothetical protein
+PMN2A_0633,AAZ58124.1,None,conserved hypothetical protein
+PMN2A_0634,AAZ58125.1,None,hypothetical protein
+PMN2A_2123,ABU24045.1,None,Hypothetical protein
+PMN2A_2124,ABU24046.1,None,Conserved hypothetical protein
+PMN2A_2125,ABU24047.1,None,Conserved hypothetical protein
+PMN2A_0684,AAZ58175.1,None,membrane protein
+PMN2A_0685,AAZ58176.1,None,conserved hypothetical protein
+PMN2A_2126,ABU24048.1,None,Hypothetical protein
+PMN2A_0694,AAZ58185.1,None,cytochrome b6-f complex subunit 5
+PMN2A_2127,ABU24049.1,None,Hypothetical protein
+PMN2A_2128,ABU24050.1,None,Conserved hypothetical protein
+PMN2A_0710,AAZ58201.1,None,possible Borrelia lipoprotein
+PMN2A_0711,AAZ58202.1,None,conserved hypothetical protein
+PMN2A_2129,ABU24051.1,None,Conserved hypothetical protein
+PMN2A_0713,AAZ58204.1,None,conserved hypothetical protein
+PMN2A_0714,AAZ58205.1,None,MIF/phenylpyruvate tautomerase family protein
+PMN2A_2130,ABU24052.1,None,Conserved hypothetical protein
+PMN2A_0720,AAZ58211.1,None,hypothetical protein
+PMN2A_2131,ABU24053.1,None,Conserved hypothetical protein
+PMN2A_0721,AAZ58212.1,None,protein family PM-20
+PMN2A_0725,AAZ58216.1,None,hypothetical protein
+PMN2A_0730,AAZ58221.1,None,protein family PM-12
+PMN2A_0737,AAZ58228.1,None,hypothetical protein
+PMN2A_0739,AAZ58230.1,None,hypothetical protein
+PMN2A_0740,AAZ58231.1,None,hypothetical protein
+PMN2A_0742,AAZ58233.1,None,protein family PM-12
+PMN2A_2132,ABU24054.1,None,Conserved hypothetical protein
+PMN2A_0743,AAZ58234.1,None,hypothetical protein
+PMN2A_0744,AAZ58235.1,None,hypothetical protein
+PMN2A_0757,AAZ58248.1,None,conserved hypothetical protein
+PMN2A_0770,AAZ58261.1,None,conserved hypothetical protein
+PMN2A_0773,AAZ58264.1,None,hypothetical protein
+PMN2A_0775,AAZ58266.1,None,"prolyl 4-hydroxylase, alpha subunit"
+PMN2A_0776,AAZ58267.1,None,possible peptidase family M20/M25/M40
+PMN2A_2133,ABU24055.1,None,Conserved hypothetical protein
+PMN2A_2134,ABU24056.1,None,Hypothetical protein
+PMN2A_0780,AAZ58271.1,None,hypothetical protein
+PMN2A_0781,AAZ58272.1,None,hypothetical protein
+PMN2A_2135,ABU24057.1,None,Conserved hypothetical protein
+PMN2A_2136,ABU24058.1,None,Conserved hypothetical protein
+PMN2A_0783,AAZ58274.1,None,hypothetical protein
+PMN2A_0785,AAZ58276.1,None,hypothetical protein
+PMN2A_2137,ABU24059.1,None,Conserved hypothetical protein
+PMN2A_2138,ABU24060.1,None,Conserved hypothetical protein
+PMN2A_2139,ABU24061.1,None,Conserved hypothetical protein
+PMN2A_0789,AAZ58280.1,None,hypothetical protein
+PMN2A_2140,ABU24062.1,None,Conserved hypothetical protein
+PMN2A_0791,AAZ58282.1,None,conserved hypothetical protein
+PMN2A_0793,AAZ58284.1,None,hypothetical protein
+PMN2A_2141,ABU24063.1,None,Conserved hypothetical protein
+PMN2A_0794,AAZ58285.1,None,"flavodoxin, long chain"
+PMN2A_0795,AAZ58286.1,None,"possible helix-turn-helix protein, CopG family"
+PMN2A_0818,AAZ58309.1,None,conserved hypothetical protein
+PMN2A_0820,AAZ58311.1,None,possible ATP synthase protein 8
+PMN2A_0822,AAZ58313.1,None,hypothetical protein
+PMN2A_0823,AAZ58314.1,None,conserved hypothetical protein
+PMN2A_0824,AAZ58315.1,None,putative Uncharacterized conserved protein
+PMN2A_2143,ABU24064.1,None,Hypothetical protein
+PMN2A_2144,ABU24065.1,None,Hypothetical protein
+PMN2A_2145,ABU24066.1,None,Hypothetical protein
+PMN2A_2146,ABU24067.1,None,Conserved hypothetical protein
+PMN2A_2147,ABU24068.1,None,Conserved hypothetical protein
+PMN2A_0844,AAZ58335.1,None,conserved hypothetical protein
+PMN2A_0857,AAZ58348.1,None,"Protein of unknown function UPF0031:YjeF-related protein, N-terminal protein"
+PMN2A_2149,ABU24070.1,None,Conserved hypothetical protein
+PMN2A_2150,ABU24071.1,None,Conserved hypothetical protein
+PMN2A_0888,AAZ58379.1,None,conserved hypothetical protein
+PMN2A_0889,AAZ58380.1,None,hypothetical protein
+PMN2A_0890,AAZ58381.1,None,conserved hypothetical protein
+PMN2A_0891,AAZ58382.1,None,hypothetical protein
+PMN2A_2151,ABU24072.1,None,Conserved hypothetical protein
+PMN2A_2152,ABU24073.1,None,Hypothetical protein
+PMN2A_0922,AAZ58413.1,None,conserved hypothetical protein
+PMN2A_2153,ABU24074.1,None,Conserved hypothetical protein
+PMN2A_0931,AAZ58422.1,None,hypothetical protein
+PMN2A_0932,AAZ58423.1,None,hypothetical protein
+PMN2A_0937,AAZ58428.1,None,redox protein
+PMN2A_2154,ABU24075.1,None,Conserved hypothetical protein
+PMN2A_0939,AAZ58430.1,None,hypothetical protein
+PMN2A_0940,AAZ58431.1,None,possible high light inducible protein
+PMN2A_2155,ABU24076.1,None,Hypothetical protein
+PMN2A_0941,AAZ58432.1,None,high light inducible protein hli11
+PMN2A_2156,ABU24077.1,None,Hypothetical protein
+PMN2A_0942,AAZ58433.1,None,hypothetical protein
+PMN2A_0945,AAZ58436.1,None,hypothetical protein
+PMN2A_2157,ABU24078.1,None,Conserved hypothetical protein
+PMN2A_2158,ABU24079.1,None,Conserved hypothetical protein
+PMN2A_0947,AAZ58438.1,None,membrane protein
+PMN2A_2159,ABU24080.1,None,Conserved hypothetical protein
+PMN2A_0948,AAZ58439.1,None,conserved hypothetical protein
+PMN2A_2160,ABU24081.1,None,Conserved hypothetical protein
+PMN2A_0951,AAZ58442.1,None,conserved hypothetical protein
+PMN2A_0952,AAZ58443.1,None,hypothetical protein
+PMN2A_2162,ABU24082.1,None,Hypothetical protein
+PMN2A_0953,AAZ58444.1,None,conserved hypothetical protein
+PMN2A_0954,AAZ58445.1,None,hypothetical protein
+PMN2A_2163,ABU24083.1,None,Hypothetical protein
+PMN2A_0956,AAZ58447.1,None,hypothetical protein
+PMN2A_0957,AAZ58448.1,None,hypothetical protein
+PMN2A_2164,ABU24084.1,None,Conserved hypothetical protein
+PMN2A_0958,AAZ58449.1,None,hypothetical protein
+PMN2A_2165,ABU24085.1,None,Conserved hypothetical protein
+PMN2A_0959,AAZ58450.1,None,enzyme of the cupin superfamily
+PMN2A_0979,AAZ58469.1,None,conserved hypothetical protein
+PMN2A_1026,AAZ58516.1,None,uncharacterized membrane protein
+PMN2A_1031,AAZ58521.1,None,protein family PM-12
+PMN2A_1036,AAZ58526.1,None,conserved hypothetical protein
+PMN2A_2168,ABU24088.1,None,Conserved hypothetical protein
+PMN2A_2170,ABU24089.1,None,Conserved hypothetical protein
+PMN2A_2172,ABU24091.1,None,Conserved hypothetical protein
+PMN2A_2173,ABU24092.1,None,Hypothetical protein
+PMN2A_1058,AAZ58548.1,None,hypothetical protein
+PMN2A_2174,ABU24093.1,None,Hypothetical protein
+PMN2A_1064,AAZ58554.1,None,metal-dependent membrane protease
+PMN2A_2175,ABU24094.1,None,Conserved hypothetical protein
+PMN2A_1090,AAZ58580.1,None,conserved hypothetical protein
+PMN2A_1091,AAZ58581.1,None,hypothetical protein
+PMN2A_2176,ABU24095.1,None,Conserved hypothetical protein
+PMN2A_2177,ABU24096.1,None,Conserved hypothetical protein
+PMN2A_1095,AAZ58585.1,None,hypothetical protein
+PMN2A_2178,ABU24097.1,None,Hypothetical protein
+PMN2A_2179,ABU24098.1,None,Hypothetical protein
+PMN2A_1096,AAZ58586.1,None,hypothetical protein
+PMN2A_1097,AAZ58587.1,None,hypothetical protein
+PMN2A_2180,ABU24099.1,None,Conserved hypothetical protein
+PMN2A_1160,AAZ58650.1,None,protein family PM-8
+PMN2A_1171,AAZ58661.1,None,conserved hypothetical protein
+PMN2A_1172,AAZ58662.1,None,(S)-2-hydroxy-acid oxidase
+PMN2A_1218,AAZ58708.1,None,putative ABC-type polysaccharide/polyol phosphate export systems permease component
+PMN2A_2181,ABU24100.1,None,Conserved hypothetical protein
+PMN2A_1226,AAZ58716.1,None,hypothetical protein
+PMN2A_1227,AAZ58717.1,None,hypothetical protein
+PMN2A_2182,ABU24101.1,None,Hypothetical protein
+PMN2A_1234,AAZ58724.1,None,dTDP-4-dehydrorhamnose reductase
+PMN2A_2183,ABU24102.1,None,Hypothetical protein
+PMN2A_1238,AAZ58728.1,None,hypothetical protein
+PMN2A_1242,AAZ58732.1,None,membrane protein
+PMN2A_2184,ABU24103.1,None,Conserved hypothetical protein
+PMN2A_1270,AAZ58760.1,None,conserved hypothetical protein
+PMN2A_2186,ABU24105.1,None,Conserved hypothetical protein
+PMN2A_1299,AAZ58789.1,None,formate and nitrite transporter
+PMN2A_1310,AAZ58799.1,None,conserved hypothetical protein
+PMN2A_1318,AAZ58807.1,None,hypothetical protein

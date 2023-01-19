@@ -1,5 +1,5 @@
 blastp -out WH8103_to_MIT9313_1e-10.txt -outfmt 5 -query GCA_001182765.1_WH8103.1_translated_cds.faa -db ../MIT9313/MIT9313 -evalue 1e-10
 Number of hits: 1833 
-Number of uniques: 997                 
+Number of uniques: 1002                 
 Number of queries: 2835 
 % matches: 64.66

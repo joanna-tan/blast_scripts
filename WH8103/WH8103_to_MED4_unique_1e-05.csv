@@ -356,6 +356,7 @@
 [locus_tag=SynWH8103_00762],[protein_id=CRY91501.1],[gene=None],"[protein=multidrug efflux transporter, MFS family]"
 [locus_tag=SynWH8103_00776],[protein_id=CRY91515.1],[gene=None],[protein=hypothetical protein]
 [locus_tag=SynWH8103_00781],[protein_id=CRY91520.1],[gene=trm1],"[protein=N(2),N(2)-dimethylguanosine tRNA methyltransferase]"
+[locus_tag=CRY91521.1],[protein_id=CRY91521.1],[gene=petM],[protein=cytochrome b6/f complex subunit VII]
 [locus_tag=SynWH8103_00785],[protein_id=CRY91525.1],[gene=None],[protein=putative pseudouridine synthase domain protein]
 [locus_tag=SynWH8103_00788],[protein_id=CRY91528.1],[gene=None],[protein=hypothetical protein]
 [locus_tag=SynWH8103_00789],[protein_id=CRY91529.1],[gene=None],[protein=ATP-dependent helicase]
@@ -1007,9 +1008,12 @@
 [locus_tag=SynWH8103_02291],[protein_id=CRY92991.1],[gene=cpeC],"[protein=phycobilisome rod linker polypeptide (Lr), C-phycoerythrin class I-associated]"
 [locus_tag=SynWH8103_02293],[protein_id=CRY92992.1],[gene=mpeD],"[protein=rod linker polypeptide (Lr), C-phycoerythrin I nd II-associated]"
 [locus_tag=SynWH8103_02294],[protein_id=CRY92993.1],[gene=cpeE],"[protein=rod linker polypeptide (Lr), C-phycoerythrin class I-associated (CpeE)]"
+[locus_tag=CRY92994.1],[protein_id=CRY92994.1],[gene=unk6],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02297],[protein_id=CRY92996.1],[gene=cpeT],[protein=putative phycoerythrobilin:phycoerythrin lyase CpeT]
+[locus_tag=CRY92997.1],[protein_id=CRY92997.1],[gene=cpeR],[protein=phycoerythrin operon regulator]
 [locus_tag=SynWH8103_02298],[protein_id=CRY92998.1],[gene=unk7],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02299],[protein_id=CRY92999.1],[gene=unk8],[protein=Conserved hypothetical gene]
+[locus_tag=CRY93000.1],[protein_id=CRY93000.1],[gene=unk9],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02302],[protein_id=CRY93001.1],[gene=mpeY],[protein=putative phycobilin:C-phycoerythrin II lyase]
 [locus_tag=SynWH8103_02304],[protein_id=CRY93003.1],[gene=mpeA],"[protein=C-phycoerythrin class II, alpha chain]"
 [locus_tag=SynWH8103_02307],[protein_id=CRY93004.1],[gene=mpeC],"[protein=rod linker polypeptide (Lr), C-phycoerythrin II-associated (C-phycoerythrin II gamma subunit)]"

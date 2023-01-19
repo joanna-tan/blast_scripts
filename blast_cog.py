@@ -1,4 +1,5 @@
 import re, glob, csv, os, sys, getopt
+import pandas as pd
 from collections import defaultdict
 from codetiming import Timer
 from Bio.Blast.Applications import NcbiblastpCommandline
@@ -132,14 +133,8 @@ def parse_blast_output(blast_output, e_value_thresh):
                 protein_id = protein_id[:-2] + "." + protein_id[-1]
                 num_matches += 1
                 
-                # line += "&[evalue={expect:.5E}]&[protein_id={protein_id}]".format(protein_id=protein_id, expect=match.expect)
-
                 matched_cog_proteins[protein_id.upper()].append(COGData(protein_id, q_protein_id, q_gene, q_protein, q_locus, match.expect))
-                # matches[q_protein_id.upper()] = COGData(protein_id, q_gene, q_protein, q_locus, match.expect)
                 # print(protein_id)
-
-            # line = line.split("&")
-            # all_out.append(line)
 
     # return len(all_out), matches
     return num_matches, matched_cog_proteins
@@ -182,25 +177,36 @@ def blast_local(query, database, e_value_thresh):
     print("MATCHES", matches)
 
     # Create matches csv file output
-    with open(csv_output, 'w') as csv_file:
-        writer = csv.writer(csv_file, lineterminator='\n')
-        all_out = []
+    # with open(csv_output, 'w') as csv_file:
+        # writer = csv.writer(csv_file, lineterminator='\n')
+    all_out = []
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
+    'COG Protein ID', 'E-value', 'COG ID',
+    'COG Category', 'COG Category Function',
+    'COG Category', 'COG Category Function',
+    'COG Category', 'COG Category Function',
+    ]
 
-        for match in matches.values():
-            for data in match:
-                line = "[locus_tag={}]&[protein_id={}]&[gene={}]&[protein={}]&" \
-                            .format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
-                line += "[cog_protein_id={}]&[e_value={}]&[cog_id={}]&" \
-                            .format(data.cog_protein_id, data.e_value, data.cog_id)
-                for category in data.cog_categories:
-                    line+= category + "&" + COG_DEFINTIONS[category] + "&"
-                
-                
-                line = line.split("&")
-                print(line)
-                all_out.append(line)
+    for match in matches.values():
+        for data in match:
+            line = "{}&{}&{}&{}&".format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
+            line += "{}&{}&{}".format(data.cog_protein_id, data.e_value, data.cog_id)
+            # line = "[locus_tag={}]&[protein_id={}]&[gene={}]&[protein={}]&" \
+            #             .format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
+            # line += "[cog_protein_id={}]&[e_value={}]&[cog_id={}]&" \
+            #             .format(data.cog_protein_id, data.e_value, data.cog_id)
+            for category in data.cog_categories:
+                line+=  "&" + category + "&" + COG_DEFINTIONS[category]
+            
+            line = line.split("&")
+            # print(line)
+            all_out.append(line)
 
-        writer.writerows(all_out)
+        # writer.writerows(all_out)
+    
+    df = pd.DataFrame(all_out)
+    df.to_csv(csv_output, header=columns, index=False)
+    # df.to_csv(csv_output, index=False)
     
     return num_matches
     # return hits

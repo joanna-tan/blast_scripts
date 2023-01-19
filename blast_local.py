@@ -30,7 +30,8 @@ def find_tags(str):
     protein_search = protein_reg.search(str)
     protein = protein_search.group(1) if protein_search else None
     locus_search = locus_tag_reg.search(str)
-    locus_tag = locus_search.group(1) if locus_search else None
+    # locus_tag = locus_search.group(1) if locus_search else None
+    locus_tag = locus_search.group(1) if locus_search else protein_id
 
     return protein_id, gene, protein, locus_tag
 
@@ -42,39 +43,39 @@ def parse_blast_output(input_file, blast_output, output_filename, e_value_thresh
     csv_filename = output_filename + "_core_" + str(e_value_thresh) + ".csv"
     fasta_filename = "output_fasta/" + output_filename + "_core_" + str(e_value_thresh) + ".faa"
 
-    with open (csv_filename, 'w') as csv_output:
-        writer = csv.writer(csv_output, lineterminator='\n')
-        all_out = []
+    # Create core gene .csv output
+    all_out = []
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
+    'Hit #1 locus tag', 'Protein ID', 'Gene', 'Protein name', 'E-value',
+    'Hit #2 locus tag', 'Protein ID', 'Gene', 'Protein name', 'E-value',
+    'Hit #3 locus tag', 'Protein ID', 'Gene', 'Protein name', 'E-value']
 
-        for record in NCBIXML.parse(open(blast_output)):
-            if record.alignments:
-                q_protein_id, q_gene, q_protein, q_locus = find_tags(record.query)
-                line = "[locus_tag={locus}]&[protein_id={protein_id}]&[gene={gene}]&[protein={protein}]" \
-                        .format(protein_id=q_protein_id, gene=q_gene, protein=q_protein, locus=q_locus)
-                curr_hits = 0
-                matches.add(q_locus)
+    for record in NCBIXML.parse(open(blast_output)):
+        if record.alignments:
+            q_protein_id, q_gene, q_protein, q_locus = find_tags(record.query)
+            line = "{}&{}&{}&{}".format(q_locus, q_protein_id, q_gene, q_protein)
+            curr_hits = 0
+            matches.add(q_locus)
 
-                for align in record.alignments:
-                    for hsp in align.hsps:
-                        if hsp.expect < e_value_thresh and curr_hits < 3:
-                            protein_id, gene, protein, locus_tag = find_tags(align.title)
-                            line += "&[locus_tag={locus}]&[protein_id={protein_id}]&[gene={gene}]&[protein={protein}]&[evalue={expect:.5E}]" \
-                                    .format(protein_id=protein_id, gene=gene, protein=protein,locus=locus_tag, expect=hsp.expect)
-                            curr_hits += 1
-                            # db_matches.add(locus_tag)
-                            
-                line = line.split("&")
-                all_out.append(line)
+            for align in record.alignments:
+                for hsp in align.hsps:
+                    if hsp.expect < e_value_thresh and curr_hits < 3:
+                        protein_id, gene, protein, locus_tag = find_tags(align.title)
+                        line += "&{}&{}&{}&{}&{:.5E}".format(locus_tag, protein_id, gene, protein, hsp.expect)
+                        curr_hits += 1
+                        # db_matches.add(locus_tag)
+                        
+            line = line.split("&")
+            all_out.append(line)
 
-        writer.writerows(all_out)
+    df = pd.DataFrame(all_out)
+    df.to_csv(csv_filename, header=columns, index=False)
     
     # Create core gene file fasta output
     core_seq_record = []
-    locus_tag_reg = re.compile(r'\[locus_tag=(.*?)\]')
     with open(input_file, "r") as handle:
         for record in SeqIO.parse(handle, "fasta"):
-            locus_search = locus_tag_reg.search(record.description)
-            locus = locus_search.group(1) if locus_search else None
+            _, _, _, locus = find_tags(record.description)
 
             # If locus tag is not in set of matches, it's unique to the query
             if locus in matches:
@@ -84,10 +85,10 @@ def parse_blast_output(input_file, blast_output, output_filename, e_value_thresh
                         .format(protein_id=q_protein_id, gene=q_gene, protein=q_protein, locus=q_locus)
                 core_seq_record.append(SeqRecord(Seq(record.seq), id=q_locus, description=desc))
 
-    # Create uniques fasta file output
+    # Create core fasta file output
     with open(fasta_filename, "w") as output_handle:
         count = SeqIO.write(core_seq_record, output_handle, "fasta")
-    # print(str(count) + " core printed")
+    print(str(count) + " core printed")
     
     # return len(all_out), matches, db_matches
     return len(all_out), matches
@@ -99,14 +100,12 @@ Method that finds the unique genes, given a set of matched loci.
 def find_unique(input_file, matches, output_filename, e_value_thresh):
     csv_filename = output_filename + "_unique_" + str(e_value_thresh) + ".csv"
     fasta_filename = "output_fasta/" + output_filename + "_unique_" + str(e_value_thresh) + ".faa"
-    locus_tag_reg = re.compile(r'\[locus_tag=(.*?)\]')
     uniques = []
     unique_seq_record = []
 
     with open(input_file, "r") as handle:
         for record in SeqIO.parse(handle, "fasta"):
-            locus_search = locus_tag_reg.search(record.description)
-            locus = locus_search.group(1) if locus_search else None
+            _, _, _, locus = find_tags(record.description)
 
             # If locus tag is not in set of matches, it's unique to the query
             if locus not in matches:
@@ -115,26 +114,23 @@ def find_unique(input_file, matches, output_filename, e_value_thresh):
 
                 desc = "[locus_tag={locus}] [protein_id={protein_id}] [gene={gene}] [protein={protein}]" \
                         .format(protein_id=q_protein_id, gene=q_gene, protein=q_protein, locus=q_locus)
-                print("locus", q_locus)
                 unique_seq_record.append(SeqRecord(Seq(record.seq), id=q_locus, description=desc))
 
-    print(unique_seq_record)
     # Create uniques fasta file output
     with open(fasta_filename, "w") as output_handle:
         SeqIO.write(unique_seq_record, output_handle, "fasta")
 
     # Create uniques csv file output
-    with open(csv_filename, 'w') as csv_output:
-        writer = csv.writer(csv_output, lineterminator='\n')
-        all_out = []
+    all_out = []
 
-        for q_protein_id, q_gene, q_protein, q_locus in uniques:
-            line = "[locus_tag={locus}]&[protein_id={protein_id}]&[gene={gene}]&[protein={protein}]" \
-                        .format(protein_id=q_protein_id, gene=q_gene, protein=q_protein, locus=q_locus)
-            line = line.split("&")
-            all_out.append(line)
+    for q_protein_id, q_gene, q_protein, q_locus in uniques:
+        line = "{}&{}&{}&{}".format(q_locus, q_protein_id, q_gene, q_protein)
+        line = line.split("&")
+        all_out.append(line)
 
-        writer.writerows(all_out)
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name']
+    df = pd.DataFrame(all_out)
+    df.to_csv(csv_filename, header=columns, index=False)
 
     return uniques
 
@@ -203,7 +199,7 @@ def print_table(table_summary):
     df = pd.DataFrame(table_summary, columns=columns)
     print(df)
 
-    df.to_csv("summary_" + os.getcwd().split("/")[-1] + ".csv")
+    df.to_csv("summary_" + os.getcwd().split("/")[-1] + ".csv", index=False)
     sys.exit()
 
 @Timer(text="Completed in {:.2f} seconds.")
@@ -213,7 +209,7 @@ def main(argv):
     try:
         opts, _ = getopt.getopt(argv,"apsi:",["dbname="])
     except:
-        print('test.py -a -i <dbname>')
+        print('../blast_local.py -a -i <dbname>')
         sys.exit(2)
     for opt, arg in opts:
         table_summary = []

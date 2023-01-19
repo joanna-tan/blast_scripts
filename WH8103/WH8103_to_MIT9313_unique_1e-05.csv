@@ -776,7 +776,9 @@
 [locus_tag=SynWH8103_02291],[protein_id=CRY92991.1],[gene=cpeC],"[protein=phycobilisome rod linker polypeptide (Lr), C-phycoerythrin class I-associated]"
 [locus_tag=SynWH8103_02293],[protein_id=CRY92992.1],[gene=mpeD],"[protein=rod linker polypeptide (Lr), C-phycoerythrin I nd II-associated]"
 [locus_tag=SynWH8103_02294],[protein_id=CRY92993.1],[gene=cpeE],"[protein=rod linker polypeptide (Lr), C-phycoerythrin class I-associated (CpeE)]"
+[locus_tag=CRY92997.1],[protein_id=CRY92997.1],[gene=cpeR],[protein=phycoerythrin operon regulator]
 [locus_tag=SynWH8103_02299],[protein_id=CRY92999.1],[gene=unk8],[protein=Conserved hypothetical gene]
+[locus_tag=CRY93000.1],[protein_id=CRY93000.1],[gene=unk9],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02307],[protein_id=CRY93004.1],[gene=mpeC],"[protein=rod linker polypeptide (Lr), C-phycoerythrin II-associated (C-phycoerythrin II gamma subunit)]"
 [locus_tag=SynWH8103_02310],[protein_id=CRY93006.1],[gene=fciA],[protein=possible AraC-type helix-turn-helix DNA-binding omain-containing transcriptional regulator]
 [locus_tag=SynWH8103_02311],[protein_id=CRY93007.1],[gene=fciB],[protein=possible AraC-type helix-turn-helix DNA-binding omain-containing transcriptional regulator]

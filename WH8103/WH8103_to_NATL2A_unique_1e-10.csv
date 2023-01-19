@@ -364,6 +364,7 @@
 [locus_tag=SynWH8103_00762],[protein_id=CRY91501.1],[gene=None],"[protein=multidrug efflux transporter, MFS family]"
 [locus_tag=SynWH8103_00776],[protein_id=CRY91515.1],[gene=None],[protein=hypothetical protein]
 [locus_tag=SynWH8103_00781],[protein_id=CRY91520.1],[gene=trm1],"[protein=N(2),N(2)-dimethylguanosine tRNA methyltransferase]"
+[locus_tag=CRY91521.1],[protein_id=CRY91521.1],[gene=petM],[protein=cytochrome b6/f complex subunit VII]
 [locus_tag=SynWH8103_00784],[protein_id=CRY91524.1],[gene=None],[protein=methyltransferase domain protein]
 [locus_tag=SynWH8103_00785],[protein_id=CRY91525.1],[gene=None],[protein=putative pseudouridine synthase domain protein]
 [locus_tag=SynWH8103_00788],[protein_id=CRY91528.1],[gene=None],[protein=hypothetical protein]
@@ -1019,6 +1020,7 @@
 [locus_tag=SynWH8103_02264],[protein_id=CRY92965.1],[gene=None],[protein=conserved membrane protein]
 [locus_tag=SynWH8103_02267],[protein_id=CRY92968.1],[gene=dprA],[protein=DNA recombination-mediator protein A]
 [locus_tag=SynWH8103_02269],[protein_id=CRY92970.1],[gene=uspG],[protein=universal stress family protein]
+[locus_tag=CRY92971.1],[protein_id=CRY92971.1],[gene=psbM],[protein=photosystem II reaction center protein PsbM]
 [locus_tag=SynWH8103_02270],[protein_id=CRY92972.1],[gene=petF],[protein=2Fe-2S ferredoxin]
 [locus_tag=SynWH8103_02279],[protein_id=CRY92981.1],[gene=None],[protein=putative membrane protein]
 [locus_tag=SynWH8103_02281],[protein_id=CRY92983.1],[gene=None],[protein=Phosphoribosyltransferase superfamily protein]
@@ -1026,8 +1028,11 @@
 [locus_tag=SynWH8103_02286],[protein_id=CRY92987.1],[gene=unk4],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02287],[protein_id=CRY92988.1],[gene=aplA],[protein=allophycocyanin-like protein]
 [locus_tag=SynWH8103_02290],[protein_id=CRY92990.1],[gene=unk5],[protein=pentapeptide repeat-containing protein]
+[locus_tag=CRY92994.1],[protein_id=CRY92994.1],[gene=unk6],[protein=conserved hypothetical protein]
+[locus_tag=CRY92997.1],[protein_id=CRY92997.1],[gene=cpeR],[protein=phycoerythrin operon regulator]
 [locus_tag=SynWH8103_02298],[protein_id=CRY92998.1],[gene=unk7],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02299],[protein_id=CRY92999.1],[gene=unk8],[protein=Conserved hypothetical gene]
+[locus_tag=CRY93000.1],[protein_id=CRY93000.1],[gene=unk9],[protein=conserved hypothetical protein]
 [locus_tag=SynWH8103_02310],[protein_id=CRY93006.1],[gene=fciA],[protein=possible AraC-type helix-turn-helix DNA-binding omain-containing transcriptional regulator]
 [locus_tag=SynWH8103_02311],[protein_id=CRY93007.1],[gene=fciB],[protein=possible AraC-type helix-turn-helix DNA-binding omain-containing transcriptional regulator]
 [locus_tag=SynWH8103_02313],[protein_id=CRY93009.1],[gene=None],[protein=hypothetical protein]

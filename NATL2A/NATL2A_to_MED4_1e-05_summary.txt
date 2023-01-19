@@ -1,0 +1,5 @@
+blastp -out NATL2A_to_MED4_1e-05.txt -outfmt 5 -query GCA_000012465.1_ASM1246v1_translated_cds.faa -db ../MED4/MED4 -evalue 1e-05
+Number of hits: 1655 
+Number of uniques: 508                 
+Number of queries: 2163 
+% matches: 76.51
