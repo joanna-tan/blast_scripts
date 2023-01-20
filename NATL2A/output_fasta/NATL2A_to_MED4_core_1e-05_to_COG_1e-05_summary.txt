@@ -1,0 +1,1 @@
+blastp -out NATL2A_to_MED4_core_1e-05_to_COG_1e-05.txt -outfmt 5 -query NATL2A_to_MED4_core_1e-05.faa -db ../../COG/COG -evalue 1e-05

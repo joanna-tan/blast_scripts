@@ -1,0 +1,5 @@
+blastp -out GCA_000012465.1_ASM1246v1_translated_cds_to_COG_1e-05.txt -outfmt 5 -query GCA_000012465.1_ASM1246v1_translated_cds.faa -db ../COG/COG -evalue 1e-05
+Number of COG matches: 1396 
+Number missing: 767         
+Number of queries: 2163 
+% matches: 64.54
