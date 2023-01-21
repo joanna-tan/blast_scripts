@@ -47,7 +47,6 @@ def parse_core(input_file, matched_tags, output_file):
     summary = "\n" + input_file + " Hits so far: " + str(len(result)) + "\n" + str(result)
     write_file(output_file, summary, "a")
 
-    print("reader", "result", "actual result", reader_count, result_count, len(result))
     return result
 
 """
@@ -61,41 +60,43 @@ def write_file(file_name, input, mode):
 """
 Method that writes core output to csv.
 """
-def generate_csv(init_file, matched_tags, output_file):
-    summary = []
-    with open(init_file, "r") as file:
-        reader = csv.reader(file)
-        for row in reader:
-            if row[0] in matched_tags:
-                summary.append(row[:4])
-    
-    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name']
-    df = pd.DataFrame(summary)
-    df.to_csv(output_file + ".csv", index=False, header=columns)
-    print("summary len", len(summary))
+def generate_csv(init_file, matched_tags, output_file_core, output_file_unique):
+    core = []
+    unique = []
 
     # Create core gene file fasta output
     core_seq_record = []
-
     for input_file in glob.glob("*.faa"):
         print(input_file)
 
         with open(input_file, "r") as handle:
             for record in SeqIO.parse(handle, "fasta"):
-                _, _, _, locus = find_tags(record.description)
+                q_protein_id, q_gene, q_protein, q_locus = find_tags(record.description)
 
-                # If locus tag is not in set of matches, it's unique to the query
-                if locus in matched_tags:
-                    q_protein_id, q_gene, q_protein, q_locus = find_tags(record.description)
-
+                # If locus tag is in the set of matched tags, then add it to the core FASTA file
+                if q_locus in matched_tags:
                     desc = "[locus_tag={locus}] [protein_id={protein_id}] [gene={gene}] [protein={protein}]" \
                             .format(protein_id=q_protein_id, gene=q_gene, protein=q_protein, locus=q_locus)
                     core_seq_record.append(SeqRecord(Seq(record.seq), id=q_locus, description=desc))
+                    core.append([q_locus, q_protein_id, q_gene, q_protein])
+
+                else:
+                    unique.append([q_locus, q_protein_id, q_gene, q_protein])
         
-        with open("output_fasta/" + output_file + ".faa", "w") as output_handle:
+        with open("output_fasta/" + output_file_core + ".faa", "w") as output_handle:
             count = SeqIO.write(core_seq_record, output_handle, "fasta")
         print(str(count) + " core printed")
+    
+    # Create core gene file .csv output
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name']
+    df = pd.DataFrame(core)
+    df.to_csv(output_file_core + ".csv", index=False, header=columns)
+    print("core len", len(core))
 
+    # Create unique gene file .csv output
+    df = pd.DataFrame(unique)
+    df.to_csv(output_file_unique + ".csv", index=False, header=columns)
+    print("unique len", len(unique))
 
 """
 Method that finds core set of synechococcus genes (in 4 prochlorococcus BLASTs)
@@ -113,21 +114,22 @@ def find_syn_core():
             for row in reader:
                 matched_tags.add(row[0])
         
-        output_file = dir + "_to_four_pro_core_" + str(e_value)
-        print(output_file)
+        output_file_unique = dir + "_to_four_pro_unique_" + str(e_value)
+        output_file_core = dir + "_to_four_pro_core_" + str(e_value)
+        print(output_file_core)
 
         summary = "\n" + init_file + " Hits so far: " + str(len(matched_tags)) + "\n" + str(matched_tags) 
-        write_file(output_file + ".txt", summary, "w")
+        write_file(output_file_core + ".txt", summary, "w")
         
         for pro in ["MIT9312", "MIT9313", "NATL2A"]:
             for input_file in glob.glob(dir + "_to_" + pro + "_core_" + str(e_value) + ".csv"):
                 # print(input_file)
-                matched_tags = parse_core(input_file, matched_tags, output_file + ".txt")
+                matched_tags = parse_core(input_file, matched_tags, output_file_core + ".txt")
 
         # Grab the matched_tags attributes from init_file
         print(len(matched_tags))
 
-        generate_csv(init_file, matched_tags, output_file)
+        generate_csv(init_file, matched_tags, output_file_core, output_file_unique)
 
 """
 Method that finds core set of prochlorococcus genes (in 4 synechococcus BLASTs)
@@ -144,23 +146,24 @@ def find_pro_core():
             next(reader) # skip the header
             for row in reader:
                 matched_tags.add(row[0])
-        
-        output_file = dir + "_to_four_syn_core_" + str(e_value)
-        print(output_file)
+
+        output_file_core = dir + "_to_four_syn_core_" + str(e_value)
+        output_file_unique = dir + "_to_four_syn_unique_" + str(e_value)
+        print(output_file_core)
 
         summary = "\n" + init_file + " Hits so far: " + str(len(matched_tags)) + "\n" + str(matched_tags) 
-        write_file(output_file + ".txt", summary, "w")
+        write_file(output_file_core + ".txt", summary, "w")
         
         for syn in ["WH8103", "WH7803", "WH8020"]:
             for input_file in glob.glob(dir + "_to_" + syn + "_core_" + str(e_value) +".csv"):
                 # print(input_file)
-                matched_tags = parse_core(input_file, matched_tags, output_file + ".txt")
+                matched_tags = parse_core(input_file, matched_tags, output_file_core + ".txt")
 
         # Grab the matched_tags attributes from init_file
         print(len(matched_tags))
         # print(matched_tags)
         
-        generate_csv(init_file, matched_tags, output_file)
+        generate_csv(init_file, matched_tags, output_file_core, output_file_unique)
 
 
 @Timer(text="Completed in {:.2f} seconds.")

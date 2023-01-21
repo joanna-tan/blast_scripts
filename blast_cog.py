@@ -87,7 +87,8 @@ Method that returns the cog_id matching an input protein_id
 def find_cog_id(protein_ids):
     cog_ids = defaultdict(set)
 
-    with open("../../COG/cog-20.cog.csv", "r") as file:
+    with open("../COG/cog-20.cog.csv", "r") as file:
+    # with open("../../COG/cog-20.cog.csv", "r") as file:
         reader = csv.reader(file)
         for row in reader:
             if row[2].upper() in protein_ids:
@@ -102,7 +103,8 @@ def find_cog_id(protein_ids):
 Method that returns a list of cog_categories matching input cog_ids
 """
 def find_cog_categories(cog_ids):
-    with open("../../COG/cog-20.def.csv", "r") as file:
+    with open("../COG/cog-20.def.csv", "r") as file:
+        # with open("../../COG/cog-20.def.csv", "r") as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] in cog_ids:
@@ -153,7 +155,7 @@ def blast_local(query, database, e_value_thresh):
     print("\n" + str(cline))
     write_file(summary_output, str(cline) + "\n", "w")
 
-    stdout, stderr = cline()
+    # stdout, stderr = cline()
     
     num_matches, matches = parse_blast_output(blast_output, e_value_thresh)
     cog_ids = find_cog_categories(find_cog_id(matches))
@@ -168,25 +170,22 @@ def blast_local(query, database, e_value_thresh):
             # print(data.cog_id, cog_ids[data.cog_id])
             data.cog_categories = cog_ids[data.cog_id]
 
-    print("MATCHES", matches)
+    # print("MATCHES", matches)
 
     # Create matches csv file output
     all_out = []
-    # columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
-    # 'COG Protein ID', 'E-value', 'COG ID',
-    # 'COG Category', 'COG Category Function',
-    # 'COG Category', 'COG Category Function',
-    # 'COG Category', 'COG Category Function',
-    # ]
+    columns = ['Locus tag', 'Protein ID', 'Gene', 'Protein name',
+    'COG Protein ID', 'E-value', 'COG ID',
+    'COG Category', 'COG Category Function',
+    'COG Category', 'COG Category Function',
+    'COG Category', 'COG Category Function',
+    'COG Category', 'COG Category Function',
+    ]
 
     for match in matches.values():
         for data in match:
             line = "{}&{}&{}&{}&".format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
             line += "{}&{}&{}".format(data.cog_protein_id, data.e_value, data.cog_id)
-            # line = "[locus_tag={}]&[protein_id={}]&[gene={}]&[protein={}]&" \
-            #             .format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
-            # line += "[cog_protein_id={}]&[e_value={}]&[cog_id={}]&" \
-            #             .format(data.cog_protein_id, data.e_value, data.cog_id)
             for category in data.cog_categories:
                 line+=  "&" + category + "&" + COG_DEFINTIONS[category]
             
@@ -197,8 +196,8 @@ def blast_local(query, database, e_value_thresh):
         # writer.writerows(all_out)
     
     df = pd.DataFrame(all_out)
-    # df.to_csv(csv_output, header=columns, index=False)
-    df.to_csv(csv_output, index=False)
+    df.to_csv(csv_output, header=columns, index=False)
+    # df.to_csv(csv_output, index=False)
     
     return num_matches, summary_output
     # return hits
@@ -207,7 +206,9 @@ def blast_local(query, database, e_value_thresh):
 Method that runs BLAST to COG database for all .faa files in the current directory.
 """
 def parse_db(input_file):
-    db = "../../COG/COG"
+    db = "../COG/COG"
+        # db = "../../COG/COG"
+
     # input_file = "WH8020_to_MIT9313_unique_1e-05.faa"
     e_value = 1e-5
 
