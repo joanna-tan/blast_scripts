@@ -77,7 +77,7 @@ def find_tags(str):
     protein_search = protein_reg.search(str)
     protein = protein_search.group(1) if protein_search else None
     locus_search = locus_tag_reg.search(str)
-    locus_tag = locus_search.group(1) if locus_search else None
+    locus_tag = locus_search.group(1) if locus_search else protein_id
 
     return protein_id, gene, protein, locus_tag
 
@@ -184,13 +184,10 @@ def blast_local(query, database, e_value_thresh):
 
     for match in matches.values():
         for data in match:
-            line = "{}&{}&{}&{}&".format(data.q_locus, data.q_protein_id, data.q_gene, data.q_protein)
-            line += "{}&{}&{}".format(data.cog_protein_id, data.e_value, data.cog_id)
+            line = [data.q_locus, data.q_protein_id, data.q_gene, data.q_protein, data.cog_protein_id, data.e_value, data.cog_id]
             for category in data.cog_categories:
-                line+=  "&" + category + "&" + COG_DEFINTIONS[category]
+                line.extend([category, COG_DEFINTIONS[category]])
             
-            line = line.split("&")
-            # print(line)
             all_out.append(line)
 
         # writer.writerows(all_out)
